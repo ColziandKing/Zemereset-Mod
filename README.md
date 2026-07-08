@@ -1,47 +1,6 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
 
-["Triggers a [Choice of Assistance] event <hidden from users>",
-	{
-		"name": "Choice of Assistance",
-		"text": "Liberty, Conformity, or Tyranny?",
-		"presentation": "Alert",
-		"choices": [
-			{
-				"text": "Horseman",
-				"uniques": [
-					"Only available <when number of [[Horseman] Units] is more than [0]>",
-					"Adopt [Dual Crown Authority]","Free [Horseman] appears"
-				]
-			},
-			{
-				"text": "Knight",
-				"uniques": [
-					"Only available <when number of [[Knight] Units] is more than [0]>",
-					"Free [Knight] appears",
-					"[+20]% weight to this choice for AI decisions"
-				]
-			},
-			{
-				"text": "Lancer",
-				"uniques": [
-					"Only available <when number of [[Lancer] Units] is more than [0]>",
-					"Free [Lancer] appears",
-					"[+40]% weight to this choice for AI decisions"
-				]
-			},
-			{
-				"text": "Cavalry",
-				"uniques": [
-					"Only available <when number of [[Cavalry] Units] is more than [0]>",
-					"Free [Cavalry] appears",
-					"[+60]% weight to this choice for AI decisions"
-				]
-			}
-		]
-	},
-]
-
 	{
 		"name": "Pura",
 		"replaces": "Temple",
