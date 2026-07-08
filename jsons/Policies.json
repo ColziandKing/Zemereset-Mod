@@ -355,6 +355,9 @@
 					"Provides a [Palace] in your first [2] cities for free <hidden from users>",
 					"[+1 Science] per [3] social policies adopted",
 					"[+2 Production, +2 Culture, +2 Happiness] [in all cities] <in cities with at least [4] [Specialists]>", 
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
                 ],
                 "row": 1,
                 "column": 9
@@ -418,6 +421,9 @@
 	"[+4] HP when healing <after adopting [Autocracy Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Freedom Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Rationalism Complete]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
                 ],
                 "row": 2,
                 "column": 9
@@ -472,7 +478,10 @@
 				"Comment [Starts with [Freedom] adopted]",
 				"Adopt [Freedom] <hidden from users>",
 				"[Great Engineer] is earned [+50]% faster",
-				"[-1 Happiness] <before the [Modern era]>"
+				"[-1 Happiness] <before the [Modern era]>",
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
                 ],
                 "row": 3,
                 "column": 9
