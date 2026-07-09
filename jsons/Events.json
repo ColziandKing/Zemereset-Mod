@@ -8,7 +8,6 @@
 			{
 				"text": "Tyranny",
 				"uniques": [
-					"Only available <when number of [[Lancer] Units] is more than [0]>",
 					"Free [Lancer] appears","Adopt [Pluralism]",
 					"[+40]% weight to this choice for AI decisions"
 				]
@@ -16,7 +15,6 @@
 			{
 				"text": "Liberty",
 				"uniques": [
-					"Only available <when number of [[Knight] Units] is more than [0]>",
 					"Free [Knight] appears","Adopt [Dual Crown Authority]",
 					"[+20]% weight to this choice for AI decisions"
 				]
@@ -24,7 +22,6 @@
 			{
 				"text": "Conformity",
 				"uniques": [
-					"Only available <when number of [[Cavalry] Units] is more than [0]>",
 					"Free [Cavalry] appears","Adopt [Mutual Aid]",
 					"[+60]% weight to this choice for AI decisions"
 				]
