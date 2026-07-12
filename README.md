@@ -1,6 +1,47 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
 
+
+{
+	"name": "Union",
+	"adjective": ["American"],
+	"leaderName": "Abraham Lincoln",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Christianity",
+
+	"declaringWar": "The United States hereby declares war. May God have mercy on your nation, for we shall not!",
+	"attacked": "Every inch of American soil will be defended with the full might of our great nation. Prepare for a war you cannot win!",
+	"defeated": "Though our great republic falls today, the spirit of American resilience can never be truly conquered. The foundation of democracy can never be shook!",
+	"introduction": "I am Abraham Lincoln, President of the United States of America. Our nation stands ready to transform the world through bold action and unwavering resolve. The strenuous life awaits!",
+
+	"neutralHello": "Greetings, leader.",
+	"hateHello": "Your weakness is apparent.",
+
+	"tradeRequest": "Let us discuss terms that advance our respective national objectives.",
+
+	"outerColor": [22, 16, 50],
+	"innerColor": [255, 255, 255],
+
+	"uniqueName": "The Perfect Union",
+	"uniques": [
+		"Adopt [Constitution]",
+	"[+1 Culture, +2 Science] from all [Wonder] buildings",
+	"[+2 Culture, +2 Science] from every [Natural wonder]",
+	"May buy [Governor Mansion] buildings for [120] [Culture] [in all cities] at an increasing price ([140])",
+	"Comment [[-5]% Culture cost of adopting new Policies for every 2 [Governor Mansion] buildings constructed with up to -40%]",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [2] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [4] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [6] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [8] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [10] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [12] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [14] of [in all cities] cities> <hidden from users>",
+	"[-5]% Culture cost of adopting new Policies <if [Governor Mansion] is constructed in at least [16] of [in all cities] cities> <hidden from users>",
+],
+
+	"spyNames": ["James", "Robert", "John", "William", "Richard", "David", "Charles", "Thomas", "Michael", "Ronald"],
+	"cities": ["Washington D.C", "New York City", "Los Angeles", "Chicago", "Detroit", "San Francisco", "Philadelphia", "Boston", "Seattle", "New Orleans", "Richmond", "Baltimore", "Cleveland", "Pittsburgh", "Milwaukee", "Minneapolis", "St. Louis", "Oakland", "Atlanta", "Indianapolis", "Tucson", "Denver", "Kansas City", "Portland", "Fresno"],
+},
 	{
 		"name": "Pura",
 		"replaces": "Temple",
