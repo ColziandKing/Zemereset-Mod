@@ -2,6 +2,61 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
 
 
+            {
+                "name": "Pluralism",
+                "uniques": [
+				"Comment [Starts with [Autocracy] adopted]",
+				"Adopt [Autocracy] <hidden from users>",
+				"Comment [Starts with [Order] adopted]",
+				"Adopt [Order] <hidden from users>",
+				"Comment [Starts with [Freedom] adopted]",
+				"Adopt [Freedom] <hidden from users>",
+				"[Great Engineer] is earned [+50]% faster",
+				"[-1 Happiness] <before the [Modern era]>",
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
+                ],
+                "row": 3,
+                "column": 9
+            },
+            {
+                "name": "Mutual Aid",
+                "uniques": [
+					"[+25]% of excess happiness converted to [Production] <in [in all cities connected to capital] cities>",
+					"Rebel units may spawn <when below [0] [Happiness]>",
+					"[+1 Production] from all [Production] buildings <after discovering [Replaceable Parts]>", 
+					"[+2 Production] from [Manufactory] tiles [in all cities] <within [1] tiles of a [City center]>",
+					"[+4] HP when healing <after adopting [Tradition Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Liberty Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Honor Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Piety Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Patronage Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Commerce Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Order Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Autocracy Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Freedom Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Rationalism Complete]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
+                ],
+                "row": 2,
+                "column": 9
+            },
+            {
+                "name": "Dual Crown Authority",
+                "uniques": ["Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]", 
+					"Provides a [Palace] in your first [2] cities for free <hidden from users>",
+					"[+1 Science] per [3] social policies adopted",
+					"[+2 Production, +2 Culture, +2 Happiness] [in all cities] <in cities with at least [4] [Specialists]>", 
+					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
+					"Only available <before adopting [Mutual Aid]> <hidden from users>",
+					"Only available <before adopting [Pluralism]> <hidden from users>",
+                ],
+                "row": 1,
+                "column": 9
+            },
 {
 	"name": "Union",
 	"adjective": ["American"],
