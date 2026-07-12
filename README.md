@@ -1,7 +1,8 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
-
-
+"[+3 Happiness, +4 Production] [in all cities] <after adopting [Voluntarism]>"
+"[+20]% growth [in all cities] <after adopting [Voluntarism]>"
+"Gain control over [All] tiles in a [1]-tile radius <upon building a [Great Improvement] improvement> <in this city> <after adopting [Voluntarism]>"
             {
                 "name": "Pluralism",
                 "uniques": [
@@ -26,7 +27,7 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 					"[+25]% of excess happiness converted to [Production] <in [in all cities connected to capital] cities>",
 					"Rebel units may spawn <when below [0] [Happiness]>",
 					"[+1 Production] from all [Production] buildings <after discovering [Replaceable Parts]>", 
-					"[+2 Production] from [Manufactory] tiles [in all cities] <within [1] tiles of a [City center]>",
+					"[+2 Production] from [Manufactory] tiles [in all cities] <within [1] tiles of a [City center]>",,
 					"[+4] HP when healing <after adopting [Tradition Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Liberty Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Honor Complete]> <hidden from users>",
@@ -35,8 +36,10 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 	"[+4] HP when healing <after adopting [Commerce Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Order Complete]> <hidden from users>",
 	"[+4] HP when healing <after adopting [Autocracy Complete]> <hidden from users>",
-	"[+4] HP when healing <after adopting [Freedom Complete]> <hidden from users>",
-	"[+4] HP when healing <after adopting [Rationalism Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Freedom Complete]> <hidden from users>",,
+	"[+4] HP when healing <after adopting [Aesthetics Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Exploration Complete]> <hidden from users>",
+	"[+4] HP when healing <after adopting [Rationalism Complete]> <hidden from users>"
 					"Only available <before adopting [Mutual Aid]> <hidden from users>",
 					"Only available <before adopting [Pluralism]> <hidden from users>",
 					"Only available <before adopting [Dual Crown Authority]> <hidden from users>",
