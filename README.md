@@ -1,5 +1,36 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
+
+[
+	{
+		"name": "Choice of Assistance",
+		"text": "Tyranny, Liberty, or Conformity?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Tyranny",
+				"uniques": [
+					"Free [Lancer] appears","Adopt [Pluralism]",
+					"[+40]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Liberty",
+				"uniques": [
+					"Free [Knight] appears","Adopt [Dual Crown Authority]",
+					"[+20]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Conformity",
+				"uniques": [
+					"Free [Cavalry] appears","Adopt [Mutual Aid]",
+					"[+60]% weight to this choice for AI decisions"
+				]
+			}
+		]
+	},
+]
 "[+3 Happiness, +4 Production] [in all cities] <after adopting [Voluntarism]>"
 "[+20]% growth [in all cities] <after adopting [Voluntarism]>"
 "Gain control over [All] tiles in a [1]-tile radius <upon building a [Great Improvement] improvement> <in this city> <after adopting [Voluntarism]>"
