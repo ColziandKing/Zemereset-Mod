@@ -748,7 +748,7 @@
                 "name": "Religious Orders",
                 "uniques": [
 			"[+50]% Natural religion spread [in City-State cities]",
-			"Gain a free [Follower] belief <after founding a Religion>",
+			"Gain a free [Follower] belief"
                 ],
                 "row": 1,
                 "column": 5
