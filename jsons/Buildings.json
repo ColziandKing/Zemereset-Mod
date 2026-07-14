@@ -332,14 +332,15 @@
     },
     {
         "name": "Governor's Mansion",
-		"cost": 125,
         "happiness": 2,
         "maintenance": 2,
         "hurryCostModifier": 25,
+		"isNationalWonder": true,
 		"requiredTech": "Mathematics",
         "uniques": [
-            "Unsellable", "Free Social Policy",
+            "Free Social Policy",
             "[+2] population [in this city]",
+			"Cost increases by [30] per owned city",
 			"Only available <in cities without a [Palace]>"
         ]
     },
