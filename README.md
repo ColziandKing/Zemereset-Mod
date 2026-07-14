@@ -1,6 +1,12 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"
 
+			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
+			"Limited to [1] per Civilization",
 [
 	{
 		"name": "Choice of Assistance",
