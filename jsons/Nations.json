@@ -27,9 +27,10 @@
 		        "City-State Influence recovers at twice the normal rate",
 			    "Military Units gifted from City-States start with [+100] XP", "[-25]% Culture cost of adopting new Policies", 
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
-				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore Terrain] promotion"],
+				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
+	//Updated
     {
         "name": "Sumeria",
         "leaderName": "Gilgamesh",
