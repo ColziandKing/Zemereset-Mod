@@ -1,5 +1,6 @@
 
 [
+	//Colziand
 	{
 		"name": "Knivex",
 		"unitType": "Sword",
@@ -19,23 +20,41 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Knivex",
-		"unitType": "Sword",
+		"name": "Vex Knight",
+		"unitType": "Mounted",
 		"uniqueTo": "Colziand",
 		"replaces": "Knight",
-		"movement": 3,
-		"strength": 14,
-		"cost": 140,
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
 		"hurryCostModifier": 40,
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit",
+		"[+33]% Strength <when fighting in [Forest] tiles>",
 			"[+33]% Strength <when fighting in [Jungle] tiles>",
-			"Can move after attacking",
+			"Can move after attacking","Great Generals I", "Quick Study",
 			"No defensive terrain penalty",
 			"[+40]% Strength for enemy [Military] units in adjacent [Land] tiles"],
-		"promotions": ["Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"attackSound": "horse"
 	},
+{
+	"name": "Knivex Soldier",
+	"uniqueTo": "Colziand",
+	"replaces": "Marine",
+	"unitType": "Gunpowder",
+	"movement": 3,
+	"strength": 65,
+	"cost": 400,
+	"requiredTech": "Pharmaceuticals",
+	"promotions": ["Amphibious","Cover I", "March"],
+	"uniques": ["[+1] Sight <when [Embarked]>", "[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <when [Embarked]>", 
+		"[1] Movement point cost to disembark", "[+100]% Strength <when defending> <when [Embarked]>","[+50]% Strength <vs [Barbarian] units>",
+		"[+20]% Strength <when defending>","[+2] Sight <if it hasn't used other actions yet>"],
+	"attackSound": "shot"
+},
     {
 		"name": "Hupernikaō",
 		"unitType": "Sword",
@@ -45,9 +64,9 @@
 		"uniques": [
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
+			"Uncapturable","Founds a new city <on foreign continents>", "[+2] Sight",
 			"Only available <in cities with a [Barracks]>",
-			"[+100]% XP gained from combat",
+			"[+100]% XP gained from combat","Great Generals II", "Quick Study",
 			"Heals [25] damage if it kills a unit",
 			"[+50]% Strength <for every [Era number]>",
 			"[+25]% Strength <starting from the [Modern era]>",
@@ -59,9 +78,10 @@
 			"[+1] Movement <starting from the [Information era]>",
 			"Cost increases by [50] when built"
 		],
-		"promotions": ["Panther Eyes"],
+		"promotions": ["[Conquistador] ability","Ambush I", "Ambush II"],
 		"attackSound": "metalhit"
 	},
+	//updated
 	{
 		"name": "Persian Immortal",
 		"unitType": "Sword",
