@@ -748,7 +748,7 @@
                 "name": "Religious Orders",
                 "uniques": [
 			"[+50]% Natural religion spread [in City-State cities]",
-			"Gain a free [Follower] belief"
+			"Gain a free [Follower] belief <after founding a religion>"
                 ],
                 "row": 1,
                 "column": 5
@@ -771,6 +771,7 @@
 				"uniques": [
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
 					"Comment [Gain a free [Reformation] belief]",
+					"Gain a free [Reformation] belief <after enhancing a religion>",
 					"Triggers a [Reformation] event <after founding a religion> <hidden from users>",
 					"Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
 					"[100]% weight to this choice for AI decisions"
