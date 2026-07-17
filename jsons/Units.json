@@ -2,6 +2,22 @@
 [
 	//Colziand
 	{
+		"name": "Guard of the Rock",
+		"uniqueTo": "Colziand",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 19,
+		"cost": 120,
+		"uniques":["[1] additional attacks per turn"],
+		"promotions": ["[Guard of The Rock] ability"],
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+	{
 		"name": "Knivex",
 		"unitType": "Sword",
 		"uniqueTo": "Colziand",
