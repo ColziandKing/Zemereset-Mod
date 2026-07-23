@@ -5,4 +5,8 @@
             "[+10]% Strength"
         ]
     },
+	{
+		"name": "[Guard of The Rock] ability",
+		"uniques": ["[1] additional attacks per turn <in [Friendly Land] tiles>"],
+	},
 ]
