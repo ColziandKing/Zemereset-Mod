@@ -1,6 +1,21 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 
+
+	{
+        "name": "Industrial Park",
+        "replaces": "Factory",
+        "uniqueTo": "America",
+        "production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+     	"cost": 360,
+		"maintenance": 3,
+		"requiredResource": "Coal",
+		"civilopediaText": [ {"text": "The growth of industry in early America was initially wrapped up in the development of urban centers. Yet as production efforts grew, bringing large businesses together into one dedicated space became more lucrative. These industrial parks typically attracted heavy industries, such as steel mills and machine production, which required more space, materials, and infrastructure than lighter trades. By allocating these facilities to their own districts, cities ensured that these critical industries, which supplied both products and jobs, had room to thrive while reducing their social and environmental impact on the surrounding population. \nHeavy industries relied on consistent and extensive deliveries of resources, as well as the ability to distribute their output. As a result, proximity to transportation was paramount to the success of these parks. Ports provided access to shipping, while the advent of the railway greatly expanded opportunities to foster industry across the United States."}, {"separator": true}],
+    	"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]", "[+1 Production, +1 Gold] from [Luxury resource] tiles [in this city]"],
+        "requiredTech": "Industrialization"
+        },
 			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
 			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
