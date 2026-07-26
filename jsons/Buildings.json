@@ -1,4 +1,19 @@
 [
+		//Austria-Hungary
+		{
+			"name": "City Hall",
+			"uniqueTo": "Colziand",
+			"replaces": "Arsenal",
+			"happiness": 2,
+			"culture": 1,
+			"cost": 300,
+			"cityStrength": 9,
+			"cityHealth": 25,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Castle",
+			"requiredTech": "Metallurgy",
+			"uniques": ["[+50]% [Happiness] [in this city] <during We Love The King Day>", "[+25]% [Culture] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
+		},
 	
 	{
 		"name": "Necropolis",
