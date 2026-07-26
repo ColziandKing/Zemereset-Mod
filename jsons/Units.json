@@ -1,5 +1,21 @@
 
 [
+//Austia-Hungary
+{
+	"name": "Grenz Infantry",
+	"uniqueTo": "Austria",
+	"replaces": "Great War Infantry",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 47,
+	"cost": 270,
+	"promotions": ["Scouting I"],
+	"uniques": ["[+5]% Strength <for [This Unit] units> <upon being promoted>"],
+	"requiredTech": "Steam Power",
+	"upgradesTo": "Infantry",
+	"obsoleteTech": "Plastics",
+	"attackSound": "shot"
+},
 	//Colziand
 	{
 		"name": "Guard of the Rock",
