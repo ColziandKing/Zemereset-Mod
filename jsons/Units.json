@@ -19,7 +19,7 @@
 	//Colziand
 	{
 		"name": "Guard of the Rock",
-		"uniqueTo": "Colziander",
+		"uniqueTo": "Colziand Kingdom",
 		"replaces": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
