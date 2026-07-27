@@ -14,6 +14,18 @@
 			"requiredTech": "Metallurgy",
 			"uniques": ["[+50]% [Happiness] [in this city] <during We Love The King Day>", "[+25]% [Culture] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
 		},
+	{
+		"name": "Stronghold",
+		"uniqueTo": "Colziand Rule",
+		"replaces": "Barracks",
+		"hurryCostModifier": 35,
+		"gold": 200,
+		"science": 3,
+		"maintenance": 5,
+		"uniques": ["New [Military] units start with [1000] Experience [in this city]","Destroyed when the city is captured","[1] free [Khan] units appear",
+			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","Gain a free [Krepost] [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
 	
 	{
 		"name": "Necropolis",
