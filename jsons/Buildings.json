@@ -2,7 +2,7 @@
 		//Austria-Hungary
 		{
 			"name": "City Hall",
-			"uniqueTo": "Colziand",
+			"uniqueTo": "Colziand Kingdom",
 			"replaces": "Arsenal",
 			"happiness": 2,
 			"culture": 1,
