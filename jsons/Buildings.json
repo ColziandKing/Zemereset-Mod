@@ -106,7 +106,7 @@
 	{
 		"name": "Ekallu",
 		"replaces": "Walls",
-		"uniqueTo": "Morocco",
+		"uniqueTo": "Assyria",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
@@ -184,7 +184,7 @@
 	{
 		"name": "Sachal",
 		"replaces": "Shrine",
-		"uniqueTo": "The Huns",
+		"uniqueTo": "Korea",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
@@ -208,7 +208,7 @@
 	{
 		"name": "Donjon",
 		"replaces": "Castle",
-		"uniqueTo": "Sweden",
+		"uniqueTo": "Normandy",
 		"cost": 160,
 		"hurryCostModifier": 160,
 		"cityStrength": 7,
@@ -302,7 +302,7 @@
 	{
 		"name": "Zócalo",
 		"replaces": "Stock Exchange",
-		"uniqueTo": "Portugal",
+		"uniqueTo": "Aztecs",
 		"cost": 360,
 		"hurryCostModifier": 160,
 		"gold": 3,
