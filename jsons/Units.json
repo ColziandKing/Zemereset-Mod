@@ -19,7 +19,7 @@
 	//Colziand
 	{
 		"name": "Guard of the Rock",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Colziander",
 		"replaces": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -34,25 +34,7 @@
 		"attackSound": "crossbow"
 	},
 	{
-		"name": "Knivex",
-		"unitType": "Sword",
-		"uniqueTo": "Colziand",
-		"replaces": "Spearman",
-		"movement": 3,
-		"strength": 14,
-		"cost": 140,
-		"hurryCostModifier": 40,
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>",
-			"[+33]% Strength <when fighting in [Jungle] tiles>",
-			"Can move after attacking",
-			"No defensive terrain penalty",
-			"[+40]% Strength for enemy [Military] units in adjacent [Land] tiles"],
-		"promotions": ["Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Vex Knight",
+		"name": "Knight Vex",
 		"unitType": "Mounted",
 		"uniqueTo": "Colziand",
 		"replaces": "Knight",
@@ -73,8 +55,8 @@
 		"attackSound": "horse"
 	},
 {
-	"name": "Knivex Soldier",
-	"uniqueTo": "Colziand",
+	"name": "Knivex",
+	"uniqueTo": "Colziand Rule",
 	"replaces": "Marine",
 	"unitType": "Gunpowder",
 	"movement": 3,
@@ -89,7 +71,7 @@
 },
     {
 		"name": "Hupernikaō",
-	"uniqueTo": "Colziand",
+	"uniqueTo": "Colziand Rule",
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 40,
