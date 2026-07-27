@@ -25,7 +25,7 @@
 		"uniqueName": "Each City, State Domain",
 		"uniques": ["[+1 Food] from [All] tiles [in [non-Puppeted] cities]", 
 		        "Gain a free [City Hall] [in [non-Puppeted] cities]",
-			    "Military Units gifted from City-States start with [+100] XP", 
+			    "Military Units gifted from City-States start with [+100] XP", "Free Social Policy",
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
@@ -56,8 +56,8 @@
 		"uniques": [
 		        "[+1 Food] from [All] tiles [in [non-Puppeted] cities]","Gain a free [Stronghold] [in Annexed cities]",
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
-			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <when in a Golden Age>",
-			    "Free [Hupernikaō] appears <in cities following our religion>", "Free [Hupernikaō] appears <after We Love The King Day>",
+			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
+			    "Free [Hupernikaō] appears <in cities following our religion>", "Free [Hupernikaō] appears <upon entering the [Modern era]>",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
