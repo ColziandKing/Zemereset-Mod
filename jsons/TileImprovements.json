@@ -12,7 +12,7 @@
     },
     {
         "name": "Obshchina",
-        "uniqueTo": "Russia",
+        "uniqueTo": "Imperial Russia",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
         "turnsToBuild": 7,
         "techRequired": "Civil Service",
