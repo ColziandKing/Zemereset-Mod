@@ -184,7 +184,7 @@
 	{
 		"name": "Sachal",
 		"replaces": "Shrine",
-		"uniqueTo": "Korea",
+		"uniqueTo": "The Huns",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
@@ -356,7 +356,7 @@
 	{
 		"name": "Huiguan",
 		"replaces": "Bank",
-		"uniqueTo": "China",
+		"uniqueTo": "Korea",
 		"cost": 200,
 		"hurryCostModifier": 160,
 		"gold": 2,
