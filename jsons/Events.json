@@ -171,7 +171,7 @@
 				"text": "Treaty Organization",
 				"uniques": [
 					"Adopt [Treaty Organization]",
-					"Only available <before adopting [Treaty Organization",
+					"Only available <before adopting [Treaty Organization]>",
 					"[+10]% weight to this choice for AI decisions"
 				]
 			},
