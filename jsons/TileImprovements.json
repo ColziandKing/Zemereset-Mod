@@ -1,4 +1,94 @@
 [
+  {
+        "name": "Hidden Fortress",
+        "uniqueTo": "Babylon",
+        "terrainsCanBeBuiltOn": ["Hill"],
+        "production": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Metal Casting",
+        "uniques": ["Comment [Units gain the [Hidden] status when stationed on this improvement]", "Gives a defensive bonus of [50]%", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "Nestled in the Balkan mountains, near the town of Belogradchik, rises a rocky outcrop with a secret – an ancient garrison once nestled at the heart of its peaks, concealed behind natural ramparts. These small fortresses dotted the rough landscape of the Bulgarian Empires. They were constructed in strategic locations that were largely protected by the terrain: steep cliffs, narrow valleys, convenient outcrops. The location was further reinforced and buildings erected to house soldiers and provisions. Smaller fortresses were often designed to be hidden from passing eyes, to allow for covert surveillance or surprise attack – one of many ways in which the Bulgars leveraged the land against their foes. \nNot many of these hidden fortresses remain today, but the most remarkable is the one at Belogradchik. It was first fortified during the Roman era and was reinforced and expanded several times, by the Byzantines, the Bulgars, and finally the Ottomans; it was a particularly important site for an offshoot Bulgarian state centered in Vidin. Today it has a far more noticeable footprint that extends beyond its crags, but the original citadel still manages to blend in with the landscape."}, {"separator": true}],
+        "shortcutKey": "H"
+    },
+    {
+        "name": "Obshchina",
+        "uniqueTo": "Russia",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+        "turnsToBuild": 7,
+        "techRequired": "Civil Service",
+        "uniques": ["[+2 Food] for each adjacent [Farm]", "[+2 Culture] from [Tundra] tiles", "[+2 Culture] from [Snow] tiles", "Only available <with [0] to [0] neighboring [Obshchina] tiles>",
+            "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "The model of the individual farmer predominated in Western Europe. But in Russia, the obshchina was a type of long-established collective farm (not to be confused with later Communist collective farms). At obshchiny, individuals held and farmed their own plots. However, plots could not be transferred without the approval of the collective, and if the situation became unbalanced, the collective could re-apportion the land as needed. In this way, peasants in the obschchina were sheltered from the hazards of everyday catastrophe: a death in the community, the establishment of a new household, etc. These communities were not entirely self-governing until the abolishment of serfdom; lords and wealthy landowners still existed, but they retained some degree of (collective) autonomy away from the forces of state and capital. Slavophiles – Russians who saw value in Russia’s Slavic roots rather than in the emulation of European norms – saw something noble in the obschchina. In later years, they were upheld as a proto-Communist formation by those who sought to transform the Russian economy."}, {"separator": true}],
+        "shortcutKey": "O"
+    },
+     {
+        "name": "Mawaskawe Skote",
+        "uniqueTo": "Iroquois",
+        "terrainsCanBeBuiltOn": ["Forest","Jungle"],
+        "food": 3,
+        "turnsToBuild": 7,
+        "techRequired": "Civil Service",
+        "uniques": ["[+1 Gold] for each adjacent [resource]", "Pillaging this improvement yields approximately [+25 Gold]"],
+         "civilopediaText": [ {"text": "The mawaskawe skote, “council fire,” is the focal point of tribal and intertribal discussion. Historically, the fire was lit when decisions had to be made that impacted the whole Shawnee community, and chosen representatives would congregate to discuss each matter until a resolution was reached. The mawaskawe skote was a space of mutual respect where those affected were given the opportunity to speak and be heard. The maintenance of the fire itself was a sacred practice. It remains a vital part of Shawnee tradition today."}, {"separator": true}],
+        "shortcutKey": "S"
+    },
+    {
+        "name": "Caravanaserai",
+        "uniqueTo": "Songhai",
+        "terrainsCanBeBuiltOn": ["Plains","Desert","Hill", "River"],
+        "gold": 3,
+        "turnsToBuild": 7,
+        "techRequired": "Civil Service",
+        "uniques": ["[+1 Gold] for each adjacent [resource]", "[+1 Gold] from [River] tiles", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "Medieval Muslim trade routes crossed some of the most inhospitable terrain of their day. From the dry Eurasian steppe to the wastes of the Sahara, merchants needed places for rest and shelter during their journey. The word “caravanserai” is Persian in origin, and likely would not have been used by the Songhai, but the concept is the same: a rest station. Given the importance of trans-Saharan trade for the Songhai, these stops were vital in the maintenance and prosperity of trade routes. A typical caravanserai had walls for defense against raiders (or storms), stalls for animals, baths, mosques, and small markets."}, {"separator": true}],
+        "shortcutKey": "C"
+    },
+    {
+        "name": "Hawilt",
+        "uniqueTo": "Ethiopia",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Masonry",
+        "uniques": ["Cannot be built on [Hill] tiles", "[+1 Culture] for each adjacent [Hawilt]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "In Aksum, kingship was linked with religion, as kings were seen as the descendants of Astar, the principal god of the region. Before Aksum’s conversion to Christianity in the fourth century CE, royal tombs were marked by hawilt, large obelisks. These were decorated with false windows and doors, a type of vertical palatial skyscraper for the dead king. The obelisks were a source of ire for Aksum’s first Christian king, Ezana, who ended the practice, even though his own grave was marked with a hawilt. As a result, much of the original religious or social functions of these objects has been lost. Remaining hawilt number in the hundreds, including the Great Stele and King Ezana’s Stele."}, {"separator": true}],
+        "shortcutKey": "H"
+    },
+  {
+        "name": "Han Great Wall",
+        "uniqueTo": "China",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "culture": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Masonry",
+        "uniques": ["[+1 Happiness] for each adjacent [Han Great Wall]", "Gives a defensive bonus of [50]%","Only available <with [0] to [1] neighboring [Han Great Wall] tiles>",
+            "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "Though its name suggests otherwise, the Great Wall of China is not a single wall. Its earliest sections were built between the seventh and third centuries BCE by warring kingdoms hoping to defend themselves against each other. The victorious Qin dynasty unified these states and destroyed the walls between them, but kept the structures along the northern borders. These segments were connected to defend against northern enemies. \nWith the rise of the Han dynasty in 202 BCE, diplomatic negotiations with the nomadic Xiongnu in the north soon erupted into war. In response, the Han strengthened and expanded the Qin walls, leveraging them as offensive structures to great success. Dotted with towers and forts, these walls created positions of strength in contested territories, claiming land and providing a defended route for supplies, communication, and trade. The walls were supplied by civilian and military farms and built largely using the rammed earth technique, in which soil is tightly compacted layer by layer between two vertical boards."}, {"separator": true}],
+        "shortcutKey": "W"
+    },
+  {
+        "name": "Baray",
+        "uniqueTo": "Siam",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Desert","Flood plains"],
+        "food": 3,
+        "turnsToBuild": 7,
+        "techRequired": "Masonry",
+        "uniques": ["[+1 Food] from [Flood plains] tiles","[+1 Food] from [Fresh water] tiles", "Does not need removal of [Marsh]", "Only available <with [0] to [0] neighboring [Baray] tiles>",
+            "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "The Angkorean civilization revolved around the control of water, specifically the great backflow of the Mekong River during the monsoon. Royal religious rites often named the monarch as the mediator between the heavens and the populations. As divinity made flesh, the king was responsible for ensuring that his people prospered – and prosperity in Southeast Asia depended on water. Baray were massive reservoirs (the West Baray could hold 14 million gallons of water) and were proof of the king’s ability to care for his people. Baray evoke the Sea of Creation in Hindu/Buddhist myth, combining both religious meaning and practical engineering in a single structure."}, {"separator": true}],
+        "shortcutKey": "B"
+    },
+  {
+        "name": "Potkop",
+        "uniqueTo": "Celts",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": ["[+1 Food] for each adjacent [resource]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "'Potkop' is a Natchez term for 'mountain' or 'mound'. Here it refers to the mounds raised by the Mississippian people, although they would have called it something else (they were likely Siouan speakers, and the Natchez language is an isolate). Nonetheless, the Natchez were building mounds they called potkop when they encountered Europeans in the 17th century. \nThe Mississippian potkop was a flat-topped structure made of packed earth, topped by a temple, storage buildings, or important homes and other central buildings. They were often used over successive generations, though Mississippian cities regularly went through cycles of growth and dissolution. The mounds are the most significant architectural aspect of their society that survives to the present."}, {"separator": true}],
+        "shortcutKey": "P"
+    },
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
