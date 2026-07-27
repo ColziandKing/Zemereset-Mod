@@ -1,4 +1,26 @@
 [
+    {
+        "name": "Pion",
+        "type": "Pantheon",
+        "uniques": [
+            "Only available <after adopting [Autocracy]>",
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+50]% weight to this choice for AI decisions"
+		]
+    },
+    {
+        "name": "Pion",
+        "type": "Pantheon",
+        "uniques": [
+            "Only available <after adopting [Order]>",
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+50]% weight to this choice for AI decisions"
+		]
+    },
 	// Pantheons
     {
         "name": "Earth Mother",
