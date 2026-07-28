@@ -16,14 +16,14 @@
 		},
 	{
 		"name": "Stronghold",
-	"uniqueTo": "Colziand Rule",
 		"replaces": "Barracks",
 		"hurryCostModifier": 35,
 		"gold": 200,
 		"science": 3,
 		"maintenance": 5,
 		"uniques": [
-					"Will not be displayed in Civilopedia","New [Military] units start with [1000] XP [in this city]","Destroyed when the city is captured",
+            "Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+			"New [Military] units start with [1000] XP [in this city]","Destroyed when the city is captured",
 			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","[1] free [Hupernikaō] units appear"],
 		"requiredTech": "Bronze Working"
 	},
