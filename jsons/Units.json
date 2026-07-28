@@ -64,7 +64,7 @@
 	"requiredTech": "Pharmaceuticals",
 	"promotions": ["Amphibious","Cover I", "March"],
 	"uniques": [
-            "Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+            "Only available <after adopting [Colziand Rule]>",
 		"[+1] Sight <when [Embarked]>", "[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <when [Embarked]>", 
 		"[1] Movement point cost to disembark", "[+100]% Strength <when defending> <when [Embarked]>","[+50]% Strength <vs [Barbarian] units>",
 		"[+20]% Strength <when defending>","[+2] Sight <if it hasn't used other actions yet>"],
@@ -77,7 +77,7 @@
 		"strength": 40,
 		"cost": 500,
 		"uniques": [
-            "Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+            "Only available <after adopting [Colziand Rule]>",
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable","Founds a new city <on foreign continents>", "[+2] Sight",
