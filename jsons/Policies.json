@@ -484,7 +484,7 @@
 			{
 				"name": "Legalism",
 				"uniques": [
-					"Provides a [Aqueduct] in your first [4] cities for free",
+					"Provides the cheapest [Culture] building in your first [4] cities for free",
 					"[+10]% [Culture] from every [Monument]"
         ],
 				"requires": [
@@ -532,7 +532,7 @@
 				"uniques": [
 					"[+15]% growth [in all cities]",
 					"Adopt [Mandate Of Heaven] <hidden from users>",
-					"Provides the cheapest [Culture] building in your first [4] cities for free",
+					"Provides a [Aqueduct] in your first [4] cities for free",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
