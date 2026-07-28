@@ -23,10 +23,10 @@
 		"outerColor": [255,128,0],
 		"innerColor": [255,255,0], 
 		"uniqueName": "Each City, State Domain",
-		"uniques": ["[+1 Food] from [All] tiles [in [non-Puppeted] cities]", 
-		        "Gain a free [City Hall] [in [non-Puppeted] cities]",
+		"uniques": [ 
+		        "Gain a free [City Hall] <upon founding a city>",
 			    "Military Units gifted from City-States start with [+100] XP", "Free Social Policy",
-			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
+			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
@@ -54,9 +54,9 @@
 		"innerColor": [255,255,0], 
 		"uniqueName": "Rule more than Conquerors",
 		"uniques": [
-		        "[+1 Food] from [All] tiles [in [non-Puppeted] cities]",
+		        "[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
 			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
-			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in Annexed cities]",
+			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
