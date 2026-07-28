@@ -16,7 +16,6 @@
 		},
 	{
 		"name": "Stronghold",
-		"uniqueTo": "Colziand Rule",
 		"replaces": "Barracks",
 		"hurryCostModifier": 35,
 		"gold": 200,
