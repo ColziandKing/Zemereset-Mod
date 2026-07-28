@@ -64,7 +64,8 @@
 	"cost": 400,
 	"requiredTech": "Pharmaceuticals",
 	"promotions": ["Amphibious","Cover I", "March"],
-	"uniques": ["[+1] Sight <when [Embarked]>", "[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <when [Embarked]>", 
+	"uniques": [
+					"Will not be displayed in Civilopedia","[+1] Sight <when [Embarked]>", "[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <when [Embarked]>", 
 		"[1] Movement point cost to disembark", "[+100]% Strength <when defending> <when [Embarked]>","[+50]% Strength <vs [Barbarian] units>",
 		"[+20]% Strength <when defending>","[+2] Sight <if it hasn't used other actions yet>"],
 	"attackSound": "shot"
@@ -77,6 +78,7 @@
 		"strength": 40,
 		"cost": 500,
 		"uniques": [
+					"Will not be displayed in Civilopedia",
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable","Founds a new city <on foreign continents>", "[+2] Sight",
