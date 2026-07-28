@@ -1836,4 +1836,112 @@
 			}
 		]
 	},
+
+	// Solid
+	{
+		"name": "Erage",
+		"era": "Renaissance era",
+		"uniques": [
+			"Comment [Obsolete with [Civ V Brave New World]]",
+			"Unavailable",
+			"Will not be displayed in Civilopedia",
+			"[-100]% weight to this choice for AI decisions",
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster",
+		 "Adopt [Cultural Centers]",
+			"Get the leader title of [Master/Mistress [leaderName]]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+		],
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 60,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
+		"civilopediaText": [
+			{ "text": "[Aesthetics] improves the civilization's ability to generate [Culture]." }
+		],
+		"policies": [
+			{
+				"name": "Colziand Rule",
+				"uniques": ["Comment [Rule more than Conquerors]",
+					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
+			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
+			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "1Fine Arts",
+				"uniques": [
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "1Flourishing of the Arts",
+				"uniques": [
+					"[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age"
+				],
+				"requires": [
+					"Cultural Centers",
+					"Fine Arts"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "1Artistic Genius",
+				"uniques": [
+					"Free [Great Artist] appears",
+                    "[+1 Culture] from every [Museum]",
+                    "[+1 Culture] from every [Amphitheater]",
+                    "[+1 Culture] from every [Opera House]",
+                    "[+1 Culture] from every [Theatre]",
+                    "[+1 Culture] from every [Broadcast Tower]",
+                    "[+3 Science] from every [Great Work of Art]",
+                    "[+3 Science] from every [Great Work of Music]",
+                    "[+3 Science] from every [Great Work of Writing]",
+                    "[+2 Science] from every [Landmark]"
+				],
+				"requires": [
+					"Fine Arts"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "1Cultural Exchange",
+				"uniques": [
+					"Comment [TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
+					"[+15]% [Tourism] resource production",
+					"[+10]% [Culture] from every [Museum]",
+					"[+10]% [Culture] from every [Opera House]",
+					"[+10]% [Culture] from every [Broadcast Tower]", // TODO: +15% Tourism when you have a active Trade Routes
+					// TODO: Sharing a Religion should give +15% Tourism
+					"[+15]% [Tourism] resource production <when number of [Remaining [Open Borders] Civilizations] is more than [0]>",
+					//"[+15]% [Tourism] resource production <when number of [[{in foreign cities} {in cities following our religion}] Cities] is more than [0]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+				],
+				"requires": [
+					"Flourishing of the Arts"
+				],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "1Aesthetics Complete",
+				"uniques": [
+					"Adopt [World Expo] <hidden from users>", "Free Social Policy",
+					"Will not be displayed in Civilopedia"
+				]
+			}
+		]
+	},
+		        
 ]
