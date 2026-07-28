@@ -350,6 +350,33 @@
                 "column": 5
             },
 			{
+				"name": "Colziand Rule",
+				"uniques": ["Comment [More Than Conquerors]",
+					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
+			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
+			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
+				],
+				"row": 1,
+				"column": 9 
+			},
+			{
+				"name": "Peaceperial",
+				"uniques": [
+            "Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 2,
+				"column": 9
+			},
+			{
+				"name": "Imperial Fullysia",
+				"uniques": [
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 3,
+				"column": 9
+			},
+			{
 				"name": "Trade Unions",
 				"uniques": [
 					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
@@ -1864,32 +1891,6 @@
 			{ "text": "[Aesthetics] improves the civilization's ability to generate [Culture]." }
 		],
 		"policies": [
-			{
-				"name": "Colziand Rule",
-				"uniques": ["Comment [Rule more than Conquerors]",
-					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
-			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
-			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
-				],
-				"row": 1,
-				"column": 1 
-			},
-			{
-				"name": "Peaceperial",
-				"uniques": [
-					"Comment [Dual Crown Authority]"
-				],
-				"row": 1,
-				"column": 3 
-			},
-			{
-				"name": "Imperial Fullysia",
-				"uniques": [
-					"Comment [Dual Crown Authority]"
-				],
-				"row": 1,
-				"column": 5
-			},
 			{
 				"name": "Imperial Fullysia1",
 				"uniques": [
