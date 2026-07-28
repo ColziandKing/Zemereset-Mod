@@ -1,4 +1,4 @@
-[
+ [
 	//RSCUniverse
 	{
 		"name": "Colziand Kingdom",
@@ -24,7 +24,7 @@
 		"innerColor": [255,255,0], 
 		"uniqueName": "Each City, State Domain",
 		"uniques": [ 
-		        "Gain a free [City Hall] <upon founding a city>",
+		        "Gain a free [City Hall] [in this city] <upon founding a city>",
 			    "Military Units gifted from City-States start with [+100] XP", "Free Social Policy",
 			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
