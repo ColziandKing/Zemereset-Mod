@@ -30,36 +30,6 @@
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
-	{
-		"name": "Colziand Rule",
-		"leaderName": "R.S. Caballero",
-		"adjective": ["Colziand"],
-          	"startBias": ["Coast","Grassland"],
-		"preferredVictoryType": "Diplomatic",
-	  	"favoredReligion": "Christianity",
-	  
-		"startIntroPart1": "Oh Raymond! You who formed a nation of people for God to saved, glorious you are. Thanks be to the mighty Father, you've united people from different places and colors. Lastly the rule which is far beyond greater than any empire, so this empire of empire is not like any other.",
-                "startIntroPart2": "Quote: 'The more you give, the more you have.' Will you once more rule the world for the Lord's desire.",
-	  	
-		"declaringWar": "Hence, Forth!",
-		"attacked": "I'm dissapointed! Why declare destruction, is there no fun in peace and prosperity?",
-		"defeated": "Colziand is its people, me, and Him.",
-		"introduction": "Kumusta sa'iyo. O estranghero, saan ka galing?",
-		"neutralHello": "Oh greeting high above",
-		"hateHello": "You speak in pride, I don't wanna hear it",
-		"tradeRequest": "It appears that you have a golden interest of our goods",
-		"cities": ["Colziane", "Cher-Hon Rishvas", "Rekle-Esieg", "Erion Faith", "Colvian", "Caballeron", "Lead-Diah", "Ravdon Mond", "Sabert Zhang", 
-			   "Colziantozant", "Adophant", "Coldelton", "Mega Complexcity", "Sheeno"],
-		"outerColor": [255,128,0],
-		"innerColor": [255,255,0], 
-		"uniqueName": "Rule more than Conquerors",
-		"uniques": [
-		        "[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
-			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
-			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
-				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
-		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
-	},
 	//Updated
     {
         "name": "Sumeria",
