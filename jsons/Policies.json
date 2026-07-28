@@ -1872,19 +1872,28 @@
 			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
 				],
 				"row": 1,
-				"column": 2
+				"column": 1 
 			},
 			{
-				"name": "1Fine Arts",
+				"name": "Peaceperial",
 				"uniques": [
 					"Comment [Dual Crown Authority]"
 				],
 				"row": 1,
-				"column": 4
+				"column": 3 
 			},
 			{
-				"name": "1Flourishing of the Arts",
+				"name": "Imperial Fullysia",
 				"uniques": [
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Imperial Fullysia1",
+				"uniques": [
+					"Comment [Dual Crown Authority]",
 					"[+33]% [Culture] [in all cities with a world wonder]",
 					"Empire enters golden age"
 				],
@@ -1896,8 +1905,9 @@
 				"column": 2
 			},
 			{
-				"name": "1Artistic Genius",
+				"name": "Pluralism",
 				"uniques": [
+					"Comment [Dual Crown Authority]",
 					"Free [Great Artist] appears",
                     "[+1 Culture] from every [Museum]",
                     "[+1 Culture] from every [Amphitheater]",
@@ -1916,8 +1926,9 @@
 				"column": 4
 			},
 			{
-				"name": "1Cultural Exchange",
+				"name": "Mutual Aid",
 				"uniques": [
+					"Comment [Dual Crown Authority]",
 					"Comment [TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
 					"[+15]% [Tourism] resource production",
 					"[+10]% [Culture] from every [Museum]",
@@ -1932,10 +1943,26 @@
 					"Flourishing of the Arts"
 				],
 				"row": 3,
-				"column": 2
+				"column": 1
 			},
 			{
-				"name": "1Aesthetics Complete",
+				"name": "Peaceperial1",
+				"uniques": [
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Peaceperial2",
+				"uniques": [
+					"Comment [Dual Crown Authority]"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Revolution Complete",
 				"uniques": [
 					"Adopt [World Expo] <hidden from users>", "Free Social Policy",
 					"Will not be displayed in Civilopedia"
