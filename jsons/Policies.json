@@ -1892,7 +1892,7 @@
 		],
 		"policies": [
 			{
-				"name": "Imperial Fullysia1",
+				"name": "Political Satire",
 				"uniques": [
 					"Comment [Dual Crown Authority]",
 					"[+33]% [Culture] [in all cities with a world wonder]",
@@ -1947,7 +1947,7 @@
 				"column": 1
 			},
 			{
-				"name": "Peaceperial1",
+				"name": "Black Bloc",
 				"uniques": [
 					"Comment [Dual Crown Authority]"
 				],
@@ -1955,7 +1955,7 @@
 				"column": 3
 			},
 			{
-				"name": "Peaceperial2",
+				"name": "Kabarett",
 				"uniques": [
 					"Comment [Dual Crown Authority]"
 				],
