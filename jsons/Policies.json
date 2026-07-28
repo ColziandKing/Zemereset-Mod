@@ -307,6 +307,19 @@
 		},
 		"policies": [
 			{
+				"name": "yFree Religion",
+				"uniques": [
+					"[+30]% [Culture] [in holy cities]",
+					"[+25]% [Happiness] [in annexed cities]",
+					"[+15]% [Happiness] [in puppeted cities]",
+					"[+27]% Natural religion spread [in annexed cities]",
+					"[+17]% Natural religion spread [in puppeted cities]",
+			"Comment [Freedom;Recommended for Order civs]",
+				],		
+				"row": 1,
+				"column": 7
+			},
+			{
 				"name": "Free Religion",
 				"uniques": [
 					"[+30]% [Culture] [in holy cities]",
