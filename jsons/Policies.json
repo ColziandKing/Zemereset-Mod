@@ -1839,8 +1839,8 @@
 
 	// Solid
 	{
-		"name": "Erage",
-		"era": "Renaissance era",
+		"name": "Revolution",
+		"era": "Future era",
 		"uniques": [
 			"Comment [Obsolete with [Civ V Brave New World]]",
 			"Unavailable",
@@ -1942,6 +1942,5 @@
 				]
 			}
 		]
-	},
-		        
+	},	        
 ]
