@@ -2,6 +2,58 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 
 
+	// Solid
+	{
+		"name": "Revolution",
+		"era": "Future era",
+		"uniques": [
+			"Comment [Obsolete with [Civ V Brave New World]]",
+			"Unavailable",
+			"Will not be displayed in Civilopedia",
+			"[-100]% weight to this choice for AI decisions",
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster",
+		 "Adopt [Cultural Centers]",
+			"Get the leader title of [Master/Mistress [leaderName]]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+		],
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 60,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
+		"civilopediaText": [
+			{ "text": "[Aesthetics] improves the civilization's ability to generate [Culture]." }
+		],
+		"policies": [
+			{
+				"name": "Pluralism",
+				"uniques": [
+				"Comment [Starts with [Autocracy] adopted]",
+				"Adopt [Autocracy] <hidden from users>",
+				"Comment [Starts with [Order] adopted]",
+				"Adopt [Order] <hidden from users>",
+				"Comment [Starts with [Freedom] adopted]",
+				"Adopt [Freedom] <hidden from users>",
+					"[+1 Science] per every [4] [Faith] <starting from the [Modern era]>",
+					"[+1 Gold, +1 Production] per every [5] [Faith] <starting from the [Modern era]>",
+					"[+2 Food] from each Trade Route","[-25]% Food consumption by specialists [in all cities]"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Revolution Complete",
+				"uniques": [ 
+					"Will not be displayed in Civilopedia"
+				]
+			}
+		]
+	},	      
+
 			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
 			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
