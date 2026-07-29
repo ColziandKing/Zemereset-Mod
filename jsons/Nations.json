@@ -25,15 +25,15 @@
 		"uniqueName": "Each City, State Domain",
 		"uniques": [ 
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
-		        "Gain a free [City Hall] [in this city] <upon founding a city>",
-			    "Military Units gifted from City-States start with [+100] XP", "Free Social Policy",
+		        "Gain a free [City Hall] [in this city] <upon founding a city>","Discovers [Construction] technology <upon entering the [Classical era]>",
+			    "Military Units gifted from City-States start with [+100] XP", 
 			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
 	{
 		"name": "Suzainswellia",
-		"leaderName": "Uzaine Anne Caballero",
+		"leaderName": "U.A. Caballero",
 		"adjective": ["Swells"],
 		"startBias": ["Coast"],
   	        "preferredVictoryType": "Diplomatic",
@@ -56,19 +56,17 @@
 		"innerColor": [61, 0, 109],
 
 		"uniqueName": "Coastal Express",
-		"uniques": ["Starts with [Optics]","Starts with [Sailing]", "[+1 Food, +1 Gold] from [All] tiles [in all cities]","+[100]% [Gold] [in capital]",
-			    "Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			  "Units ignore terrain costs when moving into any tile with Mountain","[-40]% Culture cost of adopting new Policies",
-			    "[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
-			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
-			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
-			   "Provides [1] [Incense]","Provides [1] [Gems]","May choose [2] additional belief(s) of any type when [founding] a religion","Cannot build [Scout] units"],
+		"uniques": ["Adopt [Peaceperial] <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>",
+			"Discovers [Sailing] technology <upon entering the [Classical era]>", "[+1 Food, +1 Culture] from [Coast] tiles [in all cities]",
+			"[+2 Culture] from each Trade Route","[+2 Production] from every [Fishing Boats]",
+			"[+100]% Strength <for [Ranged Water] units>","[+100]% Strength <for [Melee Water] units>",
+		],
 
 		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella"]
 	},
 	{
 		"name": "Principality of Fullysia",
-		"leaderName": "Ullysia Ryden Gozanlithozz",
+		"leaderName": "U.R. Gozanlithozz",
 		"adjective": ["Fullysian"],
 		"startBias": ["Grassland","Forest"],
   	        "preferredVictoryType": "Diplomatic",
@@ -91,10 +89,12 @@
 		"innerColor": [255,255,255],
 
 		"uniqueName": "Fullysianth Song",
-		"uniques": ["Starts with [Animal Husbandry]","Starts with [The Wheel]","[+1 Faith] from [All] tiles [in all cities]",
-			   "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[-40]% Culture cost of adopting new Policies",
-			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation",
-			   "Provides [1] [Gems]","Provides [1] [Incense]","May choose [2] additional belief(s) of any type when [founding] a religion","Cannot build [Scout] units"],
+		"uniques": [
+			"Adopt [Imperial Fullysia] <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
+			"Discovers [Horseback Riding] technology <upon entering the [Classical era]>","[+1 Faith] from [All] tiles [in all cities]",
+					"[+5]% [Faith] [in capital]","[+10]% [Production] [in capital]","[+1 Faith, +1 Production] from every [Grand Temple]",
+					"[+1 Faith, +1 Science] from every [University]","[+10]% [Food] [in all cities]","[+1 Faith, +1 Production] from every [Workshop]",
+					],
 
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
 	},
