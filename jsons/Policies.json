@@ -307,19 +307,6 @@
 		},
 		"policies": [
 			{
-				"name": "yFree Religion",
-				"uniques": [
-					"[+30]% [Culture] [in holy cities]",
-					"[+25]% [Happiness] [in annexed cities]",
-					"[+15]% [Happiness] [in puppeted cities]",
-					"[+27]% Natural religion spread [in annexed cities]",
-					"[+17]% Natural religion spread [in puppeted cities]",
-			"Comment [Freedom;Recommended for Order civs]",
-				],		
-				"row": 1,
-				"column": 11
-			},
-			{
 				"name": "Free Religion",
 				"uniques": [
 					"[+30]% [Culture] [in holy cities]",
@@ -365,29 +352,36 @@
 			{
 				"name": "Colziand Rule",
 				"uniques": ["Comment [More Than Conquerors]",
+					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
 			    "Free [Hupernikaō] appears <upon conquering a city>","Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
 			    "Free [Hupernikaō] appears <in cities following our religion>", "Gain a free [Stronghold] [in annexed cities]",
 				],
 				"row": 1,
-				"column": 9 
+				"column": 12 
 			},
 			{
 				"name": "Peaceperial",
-				"uniques": [
-            "Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
-					"Comment [Dual Crown Authority]"
+				"uniques": ["Comment [Dual Crown Authority]",
+					"Only available <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>",
+            			"[+5]% Strength <for [Wounded] units>",
+					"[+2 Gold] from each Trade Route","[+50]% [Gold] from City-States","Free Social Policy",
+			   "Provides [1] [Incense]","Provides [1] [Gems]","[+50]% [Gold] from City-States","Free Social Policy",
+					"May choose [1] additional belief(s) of any type when [founding] a religion",
 				],
 				"row": 2,
-				"column": 9
+				"column": 12
 			},
 			{
 				"name": "Imperial Fullysia",
-				"uniques": [
-					"Comment [Neo-War]"
+				"uniques": ["Comment [Neo-War]",
+					"Only available <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
+					"[+1 Science] from [All] tiles [in all cities]","[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]",
+					"[+1 Gold, +1 Production] per every [5] [Faith]","[+1 Science] per every [9] [Faith]","Provides [1] [Marble]","Provides [1] [Citrus]",
+					
 				],
 				"row": 3,
-				"column": 9
+				"column": 12
 			},
 			{
 				"name": "Trade Unions",
@@ -1905,80 +1899,40 @@
 		],
 		"policies": [
 			{
-				"name": "Political Satire",
-				"uniques": [
-					"Comment [Dual Crown Authority]",
-					"[+33]% [Culture] [in all cities with a world wonder]",
-					"Empire enters golden age"
-				],
-				"requires": [
-					"Cultural Centers",
-					"Fine Arts"
-				],
-				"row": 2,
-				"column": 2
-			},
-			{
 				"name": "Pluralism",
 				"uniques": [
-					"Comment [Dual Crown Authority]",
-					"Free [Great Artist] appears",
-                    "[+1 Culture] from every [Museum]",
-                    "[+1 Culture] from every [Amphitheater]",
-                    "[+1 Culture] from every [Opera House]",
-                    "[+1 Culture] from every [Theatre]",
-                    "[+1 Culture] from every [Broadcast Tower]",
-                    "[+3 Science] from every [Great Work of Art]",
-                    "[+3 Science] from every [Great Work of Music]",
-                    "[+3 Science] from every [Great Work of Writing]",
-                    "[+2 Science] from every [Landmark]"
-				],
-				"requires": [
-					"Fine Arts"
+				"Comment [Starts with [Autocracy] adopted]",
+				"Adopt [Autocracy] <hidden from users>",
+				"Comment [Starts with [Order] adopted]",
+				"Adopt [Order] <hidden from users>",
+				"Comment [Starts with [Freedom] adopted]",
+				"Adopt [Freedom] <hidden from users>",
+					"[+1 Science] per every [4] [Faith] <starting from the [Modern era]>",
+					"[+1 Gold, +1 Production] per every [5] [Faith] <starting from the [Modern era]>",
+					"[+2 Food] from each Trade Route","[-25]% Food consumption by specialists [in all cities]"
 				],
 				"row": 2,
-				"column": 4
-			},
-			{
-				"name": "Mutual Aid",
-				"uniques": [
-					"Comment [Dual Crown Authority]",
-					"Comment [TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
-					"[+15]% [Tourism] resource production",
-					"[+10]% [Culture] from every [Museum]",
-					"[+10]% [Culture] from every [Opera House]",
-					"[+10]% [Culture] from every [Broadcast Tower]", // TODO: +15% Tourism when you have a active Trade Routes
-					// TODO: Sharing a Religion should give +15% Tourism
-					"[+15]% [Tourism] resource production <when number of [Remaining [Open Borders] Civilizations] is more than [0]>",
-					//"[+15]% [Tourism] resource production <when number of [[{in foreign cities} {in cities following our religion}] Cities] is more than [0]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
-				],
-				"requires": [
-					"Flourishing of the Arts"
-				],
-				"row": 3,
-				"column": 1
-			},
-			{
-				"name": "Black Bloc",
-				"uniques": [
-					"Comment [Dual Crown Authority]"
-				],
-				"row": 3,
 				"column": 3
 			},
-			{
-				"name": "Kabarett",
-				"uniques": [
-					"Comment [Dual Crown Authority]"
-				],
-				"row": 3,
-				"column": 5
-			},
+            {
+                "name": "Pluralism",
+                "uniques": [
+				"Comment [Starts with [Autocracy] adopted]",
+				"Adopt [Autocracy] <hidden from users>",
+				"Comment [Starts with [Order] adopted]",
+				"Adopt [Order] <hidden from users>",
+				"Comment [Starts with [Freedom] adopted]",
+				"Adopt [Freedom] <hidden from users>",
+					"Only available <before adopting [Autocracy]> <hidden from users>",
+					"Only available <before adopting [Order]> <hidden from users>",
+					"Only available <before adopting [Freedom]> <hidden from users>",
+                ],
+                "row": 3,
+                "column": 9
+            },
 			{
 				"name": "Revolution Complete",
-				"uniques": [
-					"Adopt [World Expo] <hidden from users>", "Free Social Policy",
+				"uniques": [ 
 					"Will not be displayed in Civilopedia"
 				]
 			}
