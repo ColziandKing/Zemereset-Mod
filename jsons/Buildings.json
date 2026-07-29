@@ -1,4 +1,30 @@
 [
+	{
+		"name": "Amplitude Atrium",
+		"isWonder": true,
+		"happiness": 3,
+		"production": 9,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"gold": 3,
+		"faith": 6,
+		"cityStrength": 6,
+		"cost": 1000,
+		"greatPersonPoints": {"Great Scientist": 3, "Great General": 3, "Great Engineer": 3, "Great Artist": 3, "Great Merchant": 3, "Great Prophet": 3},
+		"uniqueTo": "Fullysia",
+		"requiredTech": "Steel"
+		"uniques": ["Only available [Palace] in this city","Only available <if [Empire Atrium] is constructed>","Gain a free [Ceilidh Hall] [in this city]",
+			   "Gain a free [Satrap's Court] [in this city]","Gain a free [Coffee House] [in this city]","[1] free [Janissary] units appear",
+			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
+			   "[1] free [Hakkapeliitta] units appear","[1] free [Turtle Ship] units appear",
+		"Free Technology","Only available [Palace] in this city","Only available <if [Kingdom Hall] is constructed>",
+			   "Gain a free [Wat] [in this city]","Gain a free [Longhouse] [in this city]","Gain a free [Mughal Fort] [in this city]",
+			   "[1] free [Conquistador] units appear","[1] free [Keshik] units appear","[1] free [Chu-Ko-Nu] units appear",
+			   "[1] free [Longbowman] units appear","[1] free [Samurai] units appear"], 
+	],
+		"quote": "'Here starts the rule in which it will lead us to the bright future. Our expanse is going further beyond the horizon skies of fate. Long it has started and now it still continues, our Lord leads us.' - Colziand King"
+	},
 		//Austria-Hungary
 		{
 			"name": "City Hall",
