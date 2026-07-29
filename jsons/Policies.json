@@ -1914,22 +1914,6 @@
 				"row": 2,
 				"column": 3
 			},
-            {
-                "name": "Pluralism",
-                "uniques": [
-				"Comment [Starts with [Autocracy] adopted]",
-				"Adopt [Autocracy] <hidden from users>",
-				"Comment [Starts with [Order] adopted]",
-				"Adopt [Order] <hidden from users>",
-				"Comment [Starts with [Freedom] adopted]",
-				"Adopt [Freedom] <hidden from users>",
-					"Only available <before adopting [Autocracy]> <hidden from users>",
-					"Only available <before adopting [Order]> <hidden from users>",
-					"Only available <before adopting [Freedom]> <hidden from users>",
-                ],
-                "row": 3,
-                "column": 9
-            },
 			{
 				"name": "Revolution Complete",
 				"uniques": [ 
