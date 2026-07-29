@@ -24,7 +24,7 @@
 		"innerColor": [255,255,0], 
 		"uniqueName": "Each City, State Domain",
 		"uniques": [ 
-            "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+            "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]>",
 		        "Gain a free [City Hall] [in this city] <upon founding a city>","Discover [Construction] <upon entering the [Classical era]>",
 			    "Military Units gifted from City-States start with [+100] XP", 
 			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
