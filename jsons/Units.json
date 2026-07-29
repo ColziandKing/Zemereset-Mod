@@ -56,7 +56,6 @@
 	},
 {
 	"name": "Knivex",
-	"replaces": "Marine",
 	"unitType": "Gunpowder",
 	"movement": 3,
 	"strength": 65,
