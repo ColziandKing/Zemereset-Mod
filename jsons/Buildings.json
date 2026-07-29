@@ -41,7 +41,6 @@
 		},
 	{
 		"name": "Stronghold",
-		"replaces": "Barracks",
 		"hurryCostModifier": 35,
 		"gold": 200,
 		"science": 3,
