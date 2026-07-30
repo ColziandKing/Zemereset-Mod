@@ -1,6 +1,6 @@
 
-[Judge
-	//Fullyisa"Only available <after adopting [Colziand Rule]>",
+[
+	//Fullyisa
 	{
         "name": "Colonist",
 		"replaces": "Settler",
@@ -13,6 +13,20 @@
 		"civilopediaText": [ {"text": "Carthage began as a Phoenician colony, a small coastal outpost founded to facilitate and control trade across the Mediterranean. As it grew into a city and an independent center of power, Carthage used the same technique to expand its own influence and power, relying on colonies rather than land to fuel its empire. While historically this expansion has been characterized as aggressive and imperialistic (in large part due to hostile Roman accounts of Carthage’s history), more recent investigations have shown that the initial coalescence of power focused on taking control of, and strengthening, existing Phoenician settlements along the western coastlines, while direct seizure of territory occurred later on. During this later phase, colonists were sent to establish settlements around the Mediterranean and beyond to function as trade hubs, depots, and safe harbors for the Carthaginian fleet."}, {"separator": true}],
         "hurryCostModifier": 20
     },
+        {
+		"name": "Judge",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 195,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Only available <after adopting [Imperial Fullysia]>",
+			"Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>"],
+		"attackSound": "horse"
+	},
 
 	//Suzainswellia
 	{
@@ -39,7 +53,7 @@
 	"cost": 275,
 	"requiredTech": "Plastics",
 	"uniques": [
-            "Only available <after adopting [Colziand Rule]>","Can move immediately once bought", "Unable to capture cities"],
+            "Only available <after adopting [Peaceperial Union]>","Can move immediately once bought", "Unable to capture cities"],
 	"promotions": ["[Peacekeeper] ability", "Medic"],
 	"upgradesTo": "Mechanized Infantry",
 	"obsoleteTech": "Mobile Tactics",
