@@ -89,7 +89,7 @@
 	"attackSound": "shot"
 },
 {
-	"name": "Eurofighter Typhoon",
+	"name": "Unionfighter Typhoon",
 	"uniqueTo": "The European Union",
 	"replaces": "Jet Fighter",
 	"unitType": "Fighter",
@@ -106,7 +106,7 @@
 	"attackSound": "jetgun"
 },
 {
-	"name": "Eurocorps",
+	"name": "Unioncorps",
 	"uniqueTo": "The European Union",
 	"replaces": "Mechanized Infantry",
 	"unitType": "Gunpowder",
