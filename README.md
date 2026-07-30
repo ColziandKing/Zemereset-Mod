@@ -2,6 +2,16 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 
 
+	{
+		"name": "Political Asylum",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <after adopting [Peaceperial Union]>",
+			"[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a golden age>",
+			"[+15]% growth [in this city] <upon conquering a city> <for [5] turns>","Only available <when religion is enabled>"]
+	},
 	// Solid
 	{
 		"name": "Revolution",
