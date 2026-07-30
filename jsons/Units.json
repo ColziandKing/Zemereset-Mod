@@ -31,7 +31,7 @@
 	//Suzainswellia
 	{
 		"name": "Guard of the Rock",
-		"uniqueTo": "Suzainswellia",
+		"uniqueTo": "Caldiopo",
 		"replaces": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -45,6 +45,35 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
 	},
+	{
+		"name": "Volunteer",
+		"uniqueTo": "Suzainswellia",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"uniques":["[+25]% Strength <when fighting in [Snow] tiles>","[+25]% Strength <when fighting in [Tundra] tiles>","Ignores terrain cost","Can pass through impassable tiles"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+{
+	"name": "Caravela",
+	"uniqueTo": "Suzainswellia",
+	"replaces": "Caravel",
+	"unitType": "Melee Water",
+	"movement": 5,
+	"strength": 20,
+	"cost": 120,
+	"requiredTech": "Astronomy",
+	"upgradesTo": "Ironclad",
+	"obsoleteTech": "Combustion",
+	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "[-20]% Strength decreasing with distance from the capital", "[+20]% Strength", "May enter foreign tiles without open borders"],
+	"hurryCostModifier": 30,
+	"attackSound": "cannon"
+},
 {
 	"name": "Peacekmaker",
 	"unitType": "Gunpowder",
@@ -73,7 +102,7 @@
 	"requiredTech": "Combined Arms",
 	"requiredResource": "Aluminum",
 	"promotions": ["Dogfighting I"],
-	"uniques": ["[100]% chance to intercept air attacks", "Heals [35] damage if it kills a unit", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+	"uniques": ["Only available <after adopting [League of Nations]>","[100]% chance to intercept air attacks", "Heals [35] damage if it kills a unit", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 	"attackSound": "jetgun"
 },
 {
@@ -85,7 +114,7 @@
 	"strength": 90,
 	"cost": 375,
 	"requiredTech": "Mobile Tactics",
-	"uniques": ["Never appears as a Barbarian unit"],
+	"uniques": ["Only available <after adopting [League of Nations]>","Never appears as a Barbarian unit"],
 	"attackSound": "tankshot",
 	"promotions": ["[Eurocorps] ability"],
 },
