@@ -26,7 +26,7 @@
 		"uniques": [ 
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 		        "Gain a free [City Hall] [in this city] <upon founding a city>","Discover [Construction] <upon entering the [Classical era]>",
-			    "Military Units gifted from City-States start with [+100] XP", "Adopt [Colziand Rule] <upon entering the [Renaissance era]>",
+			    "Military Units gifted from City-States start with [+100] XP", "Gain a free [Superial Rule] [in this city] <upon entering the [Renaissance era]>",
 			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
@@ -60,7 +60,7 @@
 			"Discover [Sailing] <upon entering the [Classical era]>", "[+1 Food, +1 Culture] from [Coast] tiles [in all cities]",
 			"[+2 Culture] from each Trade Route","[+2 Production] from every [Fishing Boats]",
 			"[+100]% Strength <for [Ranged Water] units>","[+100]% Strength <for [Melee Water] units>",
-			"Adopt [Peaceperial] <upon entering the [Renaissance era]>"
+			"Gain a free [Peaceperial Union] [in this city] <upon entering the [Renaissance era]>"
 		],
 
 		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella"]
@@ -95,7 +95,7 @@
 			"Discover [Horseback Riding] <upon entering the [Classical era]>","[+1 Faith] from [All] tiles [in all cities]",
 					"[+5]% [Faith] [in capital]","[+10]% [Production] [in capital]","[+1 Faith, +1 Production] from every [Grand Temple]",
 					"[+1 Faith, +1 Science] from every [University]","[+10]% [Food] [in all cities]","[+1 Faith, +1 Production] from every [Workshop]",
-			"Adopt [Imperial Fullysia] <upon entering the [Renaissance era]>"
+			"Gain a free [Imperial Fullysia] [in this city] <upon entering the [Renaissance era]>"
 					],
 
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
