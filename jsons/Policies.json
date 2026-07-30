@@ -378,7 +378,15 @@
 					"Only available <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
 					"[+1 Science] from [All] tiles [in all cities]","[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]",
 					"[+1 Gold, +1 Production] per every [5] [Faith]","[+1 Science] per every [9] [Faith]","Provides [1] [Marble]","Provides [1] [Citrus]",
-					
+					"Free Technology",
+			"Only available <if [Walls] is constructed [in this city]>",
+			   "Gain a free [Satrap's Court] [in this city]","Gain a free [Coffee House] [in this city]","[1] free [Janissary] units appear",
+			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
+			   "[1] free [Hakkapeliitta] units appear","[1] free [Turtle Ship] units appear",
+		"Only available [Palace] in this city","Only available <if [Kingdom Hall] is constructed>",
+			   "Gain a free [Wat] [in this city]","Gain a free [Longhouse] [in this city]","Gain a free [Mughal Fort] [in this city]",
+			   "[1] free [Conquistador] units appear","[1] free [Keshik] units appear",
+			   "[1] free [Longbowman] units appear","[1] free [Samurai] units appear"
 				],
 				"row": 3,
 				"column": 9
