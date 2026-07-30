@@ -41,9 +41,11 @@
 			"[+30]% Natural religion spread [in this city]"],
 			"requiredTech": "Mathematics"
 		},
-{
-		"name": "Royal Navy Dockyard",
-                "uniqueTo": "Great Britain",
+
+	//Suz
+	{
+		"name": "Queen's Dockyard",
+                "uniqueTo": "Suzainswellia",
 		"replaces": "Harbor",
 		"cost": 120,
 		"maintenance": 1,
@@ -52,18 +54,20 @@
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
-	//Suz
 	{
-		"name": "Political Asylum",
-		"faith": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"name": "Aerospace Terminal",
+		"cost": 900,
+		"maintenance": 5,
 		"uniques": ["Only available <after adopting [Peaceperial Union]>",
-			"[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a golden age>",
-			"[+15]% growth [in this city] <upon conquering a city> <for [5] turns>","Only available <when religion is enabled>"]
+			"Comment [Allows airlifting to other cities with [Airport]s]", // @see GlobalUniques.json unitUniques
+			"Can carry [9] extra [Air] units <in this city>",
+			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
+			"Comment [+50% [Tourism] from Great Works in this city]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+		],
+		"requiredTech": "Radar"
 	},
-	
 		//Austria-Hungary
 		{
 			"name": "City Hall",
