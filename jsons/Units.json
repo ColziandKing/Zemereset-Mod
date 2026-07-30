@@ -59,6 +59,36 @@
 	"obsoleteTech": "Mobile Tactics",
 	"attackSound": "shot"
 },
+{
+	"name": "Eurofighter Typhoon",
+	"uniqueTo": "The European Union",
+	"replaces": "Jet Fighter",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 75,
+	"rangedStrength": 80,
+	"range": 12,
+	"interceptRange": 10,
+	"cost": 425,
+	"requiredTech": "Combined Arms",
+	"requiredResource": "Aluminum",
+	"promotions": ["Dogfighting I"],
+	"uniques": ["[100]% chance to intercept air attacks", "Heals [35] damage if it kills a unit", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+	"attackSound": "jetgun"
+},
+{
+	"name": "Eurocorps",
+	"uniqueTo": "The European Union",
+	"replaces": "Mechanized Infantry",
+	"unitType": "Gunpowder",
+	"movement": 5,
+	"strength": 90,
+	"cost": 375,
+	"requiredTech": "Mobile Tactics",
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "tankshot",
+	"promotions": ["[Eurocorps] ability"],
+},
 	
 //Austia-Hungary
 {
