@@ -1,5 +1,5 @@
 [
-	"[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a new era>",
+	//Ful
 	{
 		"name": "Amplitude Atrium",
 		"isNationalWonder": true,
@@ -20,6 +20,17 @@
 			"Cost increases by [30] per owned city","Gain a free [Walls] [in this city]","[4] free [Judge] units appear"], 
 		"quote": "'Here starts the rule in which it will lead us to the bright future. Our expanse is going further beyond the horizon skies of fate. Long it has started and now it still continues, our Lord leads us.' - Colziand King"
 	},
+        {
+		"name": "Intendencia Office",
+		"uniqueTo": "Principality of Fullysia",
+		"cost": 490,
+		"culture": 2,
+                "gold": 1,
+		"percentStatBonus": {"production": 3},
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"requiredTech": "Education"
+	},
 		{
 			"name": "Ecclesiastic Judicature",
 			"maintenance": 4,
@@ -30,6 +41,28 @@
 			"[+30]% Natural religion spread [in this city]"],
 			"requiredTech": "Mathematics"
 		},
+{
+		"name": "Royal Navy Dockyard",
+                "uniqueTo": "Great Britain",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	//Suz
+	{
+		"name": "Political Asylum",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <after adopting [Peaceperial Union]>",
+			"[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a golden age>",
+			"[+15]% growth [in this city] <upon conquering a city> <for [5] turns>","Only available <when religion is enabled>"]
+	},
 	
 		//Austria-Hungary
 		{
