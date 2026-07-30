@@ -1,5 +1,51 @@
 
-[
+[Judge
+	//Fullyisa"Only available <after adopting [Colziand Rule]>",
+	{
+        "name": "Colonist",
+		"replaces": "Settler",
+        "uniqueTo": "Principality of Fullysia",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 106,
+        "uniques": ["Founds a new city <by consuming this unit>","Comment [Cities founded by this unit start with 1 extra population]",
+			"Excess Food converted to Production when under construction","Requires at least [2] population"],
+		"civilopediaText": [ {"text": "Carthage began as a Phoenician colony, a small coastal outpost founded to facilitate and control trade across the Mediterranean. As it grew into a city and an independent center of power, Carthage used the same technique to expand its own influence and power, relying on colonies rather than land to fuel its empire. While historically this expansion has been characterized as aggressive and imperialistic (in large part due to hostile Roman accounts of Carthage’s history), more recent investigations have shown that the initial coalescence of power focused on taking control of, and strengthening, existing Phoenician settlements along the western coastlines, while direct seizure of territory occurred later on. During this later phase, colonists were sent to establish settlements around the Mediterranean and beyond to function as trade hubs, depots, and safe harbors for the Carthaginian fleet."}, {"separator": true}],
+        "hurryCostModifier": 20
+    },
+
+	//Suzainswellia
+	{
+		"name": "Guard of the Rock",
+		"uniqueTo": "Suzainswellia",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 19,
+		"cost": 120,
+		"uniques":["[1] additional attacks per turn"],
+		"promotions": ["[Guard of The Rock] ability"],
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+{
+	"name": "Peacekmaker",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 70,
+	"cost": 275,
+	"requiredTech": "Plastics",
+	"uniques": [
+            "Only available <after adopting [Colziand Rule]>","Can move immediately once bought", "Unable to capture cities"],
+	"promotions": ["[Peacekeeper] ability", "Medic"],
+	"upgradesTo": "Mechanized Infantry",
+	"obsoleteTech": "Mobile Tactics",
+	"attackSound": "shot"
+},
+	
 //Austia-Hungary
 {
 	"name": "Grenz Infantry",
@@ -17,22 +63,6 @@
 	"attackSound": "shot"
 },
 	//Colziand
-	{
-		"name": "Guard of the Rock",
-		"uniqueTo": "Colziand Kingdom",
-		"replaces": "Crossbowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 19,
-		"cost": 120,
-		"uniques":["[1] additional attacks per turn"],
-		"promotions": ["[Guard of The Rock] ability"],
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"attackSound": "crossbow"
-	},
 	{
 		"name": "Knight Vex",
 		"unitType": "Mounted",
@@ -63,7 +93,7 @@
 	"requiredTech": "Pharmaceuticals",
 	"promotions": ["Amphibious","Cover I", "March"],
 	"uniques": [
-            "Only available <after adopting [Colziand Rule]>",
+            "Only available <after adopting [Superial Rule]>",
 		"[+1] Sight <when [Embarked]>", "[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <when [Embarked]>", 
 		"[1] Movement point cost to disembark", "[+100]% Strength <when defending> <when [Embarked]>","[+50]% Strength <vs [Barbarian] units>",
 		"[+20]% Strength <when defending>","[+2] Sight <if it hasn't used other actions yet>"],
@@ -76,7 +106,7 @@
 		"strength": 40,
 		"cost": 500,
 		"uniques": [
-            "Only available <after adopting [Colziand Rule]>",
+            "Only available <after adopting [Superial Rule]>",
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable","Founds a new city <on foreign continents>", "[+2] Sight",
@@ -221,18 +251,7 @@
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
-	{
-        "name": "Colonist",
-		"replaces": "Settler",
-        "uniqueTo": "Neich",
-        "unitType": "Civilian",
-        "movement": 2,
-        "cost": 106,
-        "uniques": ["Founds a new city <by consuming this unit>","Comment [Cities founded by this unit start with 1 extra population]",
-			"Excess Food converted to Production when under construction","Requires at least [2] population"],
-		"civilopediaText": [ {"text": "Carthage began as a Phoenician colony, a small coastal outpost founded to facilitate and control trade across the Mediterranean. As it grew into a city and an independent center of power, Carthage used the same technique to expand its own influence and power, relying on colonies rather than land to fuel its empire. While historically this expansion has been characterized as aggressive and imperialistic (in large part due to hostile Roman accounts of Carthage’s history), more recent investigations have shown that the initial coalescence of power focused on taking control of, and strengthening, existing Phoenician settlements along the western coastlines, while direct seizure of territory occurred later on. During this later phase, colonists were sent to establish settlements around the Mediterranean and beyond to function as trade hubs, depots, and safe harbors for the Carthaginian fleet."}, {"separator": true}],
-        "hurryCostModifier": 20
-    },
+            
 	{
 		"name": "Dromon",
 		"unitType": "Ranged Water",
