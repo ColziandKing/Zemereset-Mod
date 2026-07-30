@@ -2,6 +2,14 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 
 
+			"Only available <if [Walls] is constructed [in this city]>",
+			   "Gain a free [Satrap's Court] [in this city]","Gain a free [Coffee House] [in this city]","[1] free [Janissary] units appear",
+			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
+			   "[1] free [Hakkapeliitta] units appear","[1] free [Turtle Ship] units appear",
+		"Only available [Palace] in this city","Only available <if [Kingdom Hall] is constructed>",
+			   "Gain a free [Wat] [in this city]","Gain a free [Longhouse] [in this city]","Gain a free [Mughal Fort] [in this city]",
+			   "[1] free [Conquistador] units appear","[1] free [Keshik] units appear",
+			   "[1] free [Longbowman] units appear","[1] free [Samurai] units appear"
 	{
 		"name": "Political Asylum",
 		"faith": 1,
