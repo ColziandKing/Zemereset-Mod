@@ -14,11 +14,22 @@
 		"cost": 125,
 		"greatPersonPoints": {"Great Scientist": 3, "Great General": 3, "Great Engineer": 3, "Great Artist": 3, "Great Merchant": 3, "Great Prophet": 3},
 		"uniqueTo": "Principality of Fullysia",
+			"replaces": "Courthouse",
 		"requiredTech": "Iron Working"
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city","Gain a free [Ceilidh Hall] [in this city]","[1] free [Chu-Ko-Nu] units appear"], 
+			"Cost increases by [30] per owned city","Gain a free [Walls] [in this city]","[4] free [Judge] units appear"], 
 		"quote": "'Here starts the rule in which it will lead us to the bright future. Our expanse is going further beyond the horizon skies of fate. Long it has started and now it still continues, our Lord leads us.' - Colziand King"
 	},
+		{
+			"name": "Ecclesiastic Judicature",
+			"maintenance": 4,
+			"hurryCostModifier": 50,
+			"uniques": ["Only available <after adopting [Imperial Fullysia]>",
+				"Removes extra unhappiness from annexed cities",
+			"[+2 Faith, +3 Gold] [in this city] <in cities following our religion>",
+			"[+30]% Natural religion spread [in this city]"],
+			"requiredTech": "Mathematics"
+		},
 	
 		//Austria-Hungary
 		{
@@ -41,7 +52,7 @@
 		"science": 3,
 		"maintenance": 4,
 		"uniques": [
-            "Only available <after adopting [CSuperial Rule]>",
+            "Only available <after adopting [Superial Rule]>",
 			"New [Military] units start with [1000] XP [in this city]","Destroyed when the city is captured",
 			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","[1] free [Hupernikaō] units appear"],
 		"requiredTech": "Chivalry"
