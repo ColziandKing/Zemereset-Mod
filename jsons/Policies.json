@@ -1352,14 +1352,14 @@
                 "uniques": ["[+1] Happiness from each type of luxury resource"],
                 "requires": ["Free Trade"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Market Economy",
                 "uniques": ["[50]% of excess happiness converted to [Gold]"],
                 "requires": ["Free Market"],
                 "row": 3,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Foreign Aid",
