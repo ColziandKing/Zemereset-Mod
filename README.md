@@ -2,6 +2,33 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 
 
+	{
+		"name": "Sharifian Army",
+		"uniqueTo": "Hejaz",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 50,
+		"uniques":["Double movement in [Desert]","[+10]% Strength <when fighting in [Enemy] tiles>"],
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Op",
+		"uniqueTo": "Hejaz",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles","[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 			"Only available <if [Walls] is constructed [in this city]>",
 			   "Gain a free [Satrap's Court] [in this city]","Gain a free [Coffee House] [in this city]","[1] free [Janissary] units appear",
 			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
