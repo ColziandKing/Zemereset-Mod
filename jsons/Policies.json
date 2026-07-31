@@ -1271,6 +1271,116 @@
 			}
 		]
 	},
+            
+    {
+        "name": "Relations",
+        "era": "Modern era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": [,
+                    "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory", "Only available <when number of [Gold] is more than [3 * [Speed modifier for [Gold]]]>"],
+        "policies": [
+            {
+                "name": "Mercenary Opportunism",
+                "uniques": [
+                    "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Machiavellianism",
+                "uniques": [
+                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <when espionage is enabled> <hidden from users>", "[+25]% spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations] <when espionage is disabled>",
+                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <when espionage is disabled> <hidden from users>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Counter Intelligence",
+                "uniques": [
+			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
+			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
+                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
+		    "Comment [+50% [Production] when constructing defensive buildings]",
+		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Air Defense System] buildings [in all cities] <hidden from users>"
+                ],
+                "requires": ["Machiavellianism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Diplomatic Obstructionism",
+                "requires": ["Counter Intelligence", "Resource Contracts"],
+                "uniques": [
+		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ],
+                "row": 3,
+                "column": 2
+            },
+		{
+                "name": "Resource Contracts",
+                "requires": ["Machiavellianism", "Mercenary Opportunism"],
+                "uniques": [
+					
+				],
+                "row": 2,
+                "column": 4
+            },
+			{
+                "name": "Inquisition",
+                "uniques": ["May buy [Inquisitor] units with [Faith] [in all cities in which the majority religion is a major religion] <in cities with a [Temple]>", "Free [Inquisitor] appears"],
+                "requires": ["Monasticism", "Religious Orders"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Free Market",
+                "uniques": ["[+1] Happiness from each type of luxury resource"],
+                "requires": ["Free Trade"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Market Economy",
+                "uniques": ["[50]% of excess happiness converted to [Gold]"],
+                "requires": ["Free Market"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Foreign Aid",
+                "uniques": [
+                    
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Relations Complete",
+                "uniques": [
+                    "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <when espionage is enabled> <hidden from users>", "New spies start with [1] level(s) <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 15] <when espionage is disabled>", "Comment [Reveal the locations of all nearby cities] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [15] <when espionage is disabled> <hidden from users>",
+					"Reveal up to [All] [City center] within a [50] tile radius <when espionage is disabled> <hidden from users>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>",
+					"Comment [Grants the Chancellor title]",
+					"Get the leader title of [Chancellor [leaderName]] <before adopting [Individualism Complete]> <before adopting [Nationalism Complete]> <before adopting [Internationalism Complete]>"
+                ]
+            }
+        ]
+    },
 
 	// Ideology: Order
 	{
