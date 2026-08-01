@@ -421,11 +421,9 @@
                 "column": 2
             },
 			{
-				"name": "Planned Economy",
+				"name": "Communism",
 				"uniques": [
-					"[+20]% [Food] [in resisting cities]",
-            "[+25]% unhappiness from the number of cities",
-        "[-75]% Unhappiness from [Population] [in all cities]",
+					"[+15]% [Food] from every [Market]",
 			"Comment [Order;Recommended for Order civs]",
 				],
 				"row": 3,
@@ -1216,7 +1214,10 @@
             },
 			{
                 "name": "Inquisition",
-                "uniques": ["May buy [Inquisitor] units with [Faith] [in all cities in which the majority religion is a major religion] <in cities with a [Temple]>", "Free [Inquisitor] appears"], 
+                "uniques": ["May buy [Inquisitor] units with [Gold] [in all cities in which the majority religion is a major religion] <in cities with a [Temple]>", 
+					"Free [Inquisitor] appears","[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]>",
+					"Resting point for Influence with City-States is increased by [10]",
+			], 
                 "row": 1,
                 "column": 5
             },
@@ -1228,8 +1229,9 @@
                 "column": 3
             },
             {
-                "name": "Clandestine operation",
-                "uniques": [],
+                "name": "Clandestine Operation",
+                "uniques": ["Resting point for Influence with City-States is increased by [15]",
+					"Reveal up to [All] [City center] within a [50] tile radius", "Resting point for Influence with City-States is increased by [10]"],
                 "requires": ["Subversion"],
                 "row": 3,
                 "column": 3
@@ -1371,7 +1373,7 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-		 "Adopt [Communism] <hidden from users>", 
+		 "Adopt [Planned Economy] <hidden from users>", 
 		 "Adopt [Socialism] <hidden from users>", 
 
 			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
@@ -1572,9 +1574,10 @@
 
 			// Level 3
 			{
-				"name": "Communism",
+				"name": "Socialism",
 				"uniques": [
-					"[+15]% [Food] from every [Market]",
+                                "[+10]% [Science] [in all cities connected to capital]",
+			"Comment [Order;Recommended for Order civs]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1582,9 +1585,11 @@
 				"column": 3
 			},
 			{
-				"name": "Socialism",
+				"name": "Planned Economy",
 				"uniques": [
-                                        "[+10]% [Science] [in all cities connected to capital]",
+					"[+20]% [Food] [in resisting cities]",
+            "[+25]% unhappiness from the number of cities",
+        "[-75]% Unhappiness from [Population] [in all cities]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1634,7 +1639,7 @@
 			{
 				"name": "Order Complete",
 				"uniques": [
-					"Adopt [Planned Economy] <hidden from users>",
+					"Adopt [Communism] <hidden from users>",
 					"Will not be displayed in Civilopedia"
 				]
 			}
