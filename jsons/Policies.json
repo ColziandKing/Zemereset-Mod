@@ -1190,7 +1190,7 @@
             {
                 "name": "Mercenary Opportunism",
                 "uniques": [
-                    "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
+                    "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%", "[50]% XP gained from combat <for [Air] units>"
                 ],
                 "row": 1,
                 "column": 1
@@ -1223,14 +1223,19 @@
             },
             {
                 "name": "Subversion",
-                "uniques": [],
+                "uniques": ["Resting point for Influence with City-States is increased by [15]",
+					"All newly-trained [relevant] units [in this city] receive the [Operational Range] promotion",
+                    "[Bomber] units gain the [Siege I] promotion",
+                    "All newly-trained [Bomber] units [in all cities] receive the [Siege I] promotion <hidden from users>",],
                 "requires": ["Counter Intelligence"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Clandestine Operation",
-                "uniques": ["Resting point for Influence with City-States is increased by [15]",
+                "uniques": [
+                    "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
+                    "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
 					"Reveal up to [All] [City center] within a [50] tile radius", "Resting point for Influence with City-States is increased by [10]"],
                 "requires": ["Subversion"],
                 "row": 3,
