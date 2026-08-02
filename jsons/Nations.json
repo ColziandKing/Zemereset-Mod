@@ -27,7 +27,7 @@
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 		        "Gain a free [City Hall] [in this city] <upon founding a city>","Discover [Construction] <upon entering the [Classical era]>",
 			    "Military Units gifted from City-States start with [+100] XP", "Gain a free [Superial Rule] [in capital] <upon entering the [Renaissance era]>",
-			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States","Gain a free [Superial Rule] [in capital]",
+			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				"Cannot build [Scout] units","All newly-trained [relevant] units [in this city] receive the [Ignore terrain cost] promotion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
