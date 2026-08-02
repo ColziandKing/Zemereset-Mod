@@ -1,6 +1,69 @@
 [
   {
+		"name": "Toothless",
+		"text": "[Industrial]: Free Level Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "United Front",
+				"uniques": [
+					"Adopt [United Front]",
+					"Only available <before adopting [Autocracy]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Skyscrapers",
+				"uniques": [
+					"Adopt [Skyscrapers]",
+					"Only available <before adopting [Order]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Civil Society",
+				"uniques": [
+					"Adopt [Civil Society]",
+					"Only available <before adopting [Freedom]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+		]
+	},
+  {
 		"name": "Gantu",
+		"text": "[Modern]: Free Level 2 Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Nationalism",
+				"uniques": [
+					"Adopt [Nationalism]",
+					"Only available <before adopting [Autocracy]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Suffrage",
+				"uniques": [
+					"Adopt [Universal Suffrage]",
+					"Only available <before adopting [Freedom]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Cultural Revolution",
+				"uniques": [
+					"Adopt [Cultural Revolution]",
+					"Only available <before adopting [Order]>",
+					"[-10]% weight to this choice for AI decisions",
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
+				]
+			},
+		]
+	},
+  {
+		"name": "Nevermind",
 		"text": "[Ideology]: Free Tenet",
 		"presentation": "Alert",
 		"choices": [
