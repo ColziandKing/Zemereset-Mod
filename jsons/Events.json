@@ -223,26 +223,23 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Gunboat Diplomacy",
+				"text": "Imperial Fullysia",
 				"uniques": [
-					"Adopt [Gunboat Diplomacy]",
-					"Only available <before adopting [Gunboat Diplomacy]>",
+			"Gain a free [Imperial Fullysia] [in capital]",
 					"[-10]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"text": "Treaty Organization",
+				"text": "Superial Rule",
 				"uniques": [
-					"Adopt [Treaty Organization]",
-					"Only available <before adopting [Treaty Organization]>",
+					"Gain a free [Superial Rule] [in capital]",
 					"[+10]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"text": "Iron Curtain",
+				"text": "Peaceperial Union",
 				"uniques": [
-					"Adopt [Iron Curtain]",
-					"Only available <before adopting [Iron Curtain]>",
+			"Gain a free [Peaceperial Union] [in capital]",
 					"[-10]% weight to this choice for AI decisions",
 					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
 				]
