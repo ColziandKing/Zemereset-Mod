@@ -1,6 +1,38 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 "Triggers a [Gantu] event <upon entering the [Modern era]>","Triggers a [Toothless] event <upon entering the [Atomic era]>",
+	{
+		"name": "Adaptable",
+		"text": "[Renaissance]: Free [Functional] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Gunboat Diplomacy",
+				"uniques": [
+					"Adopt [Gunboat Diplomacy]",
+					"Only available <before adopting [Gunboat Diplomacy]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Treaty Organization",
+				"uniques": [
+					"Adopt [Treaty Organization]",
+					"Only available <before adopting [Treaty Organization]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Iron Curtain",
+				"uniques": [
+					"Adopt [Iron Curtain]",
+					"Only available <before adopting [Iron Curtain]>",
+					"[-10]% weight to this choice for AI decisions",
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
+				]
+			},
+		]
+	},
 
 	{
 		"name": "Sharifian Army",
