@@ -508,7 +508,6 @@
         "hurryCostModifier": 0,
 	"uniques": [
 			    "All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
-		"Adopt [Elite Forces]","Adopt [Iron Curtain]",
 	],
 	    "requiredTech": "Biology"
     },
