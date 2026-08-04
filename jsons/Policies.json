@@ -313,7 +313,6 @@
 					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
 			    "Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
 			    "Gain a free [Stronghold] [in annexed cities]",
-					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
 				],
 				"row": 1,
 				"column": 10
@@ -326,7 +325,8 @@
 					"[+2 Gold] from each Trade Route","[+50]% [Gold] from City-States","Free Social Policy",
 			   "Provides [1] [Incense]","Provides [1] [Gems]","[+50]% [Gold] from City-States","Free Social Policy",
 					"May choose [1] additional belief(s) of any type when [founding] a religion",
-					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
+					"Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]", 
+					"Provides a [Palace] in your first [2] cities for free <hidden from users>"
 				],
 				"row": 2,
 				"column": 11
@@ -337,7 +337,7 @@
 					"Only available <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
 					"[+1 Science] from [All] tiles [in all cities]","[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]",
 					"[+1 Gold, +1 Production] per every [5] [Faith]","[+1 Science] per every [9] [Faith]","Provides [1] [Marble]","Provides [1] [Citrus]",
-					"Free Technology","Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
+					"Free Technology",
 				],
 				"row": 3,
 				"column": 10
