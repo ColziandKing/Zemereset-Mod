@@ -1,41 +1,5 @@
 [
 	//Ful
-			{
-				"name": "Superial Rule",
-		"isNationalWonder": true,
-		"cost": 0,
-				"uniques": ["Comment [More Than Conquerors]","Limited to [1] per Civilization",
-					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
-					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
-			    "Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
-			    "Gain a free [Stronghold] [in annexed cities]",
-					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
-				],
-			},
-			{
-				"name": "Peaceperial Union",
-		"isNationalWonder": true,
-		"cost": 0,
-				"uniques": ["Comment [Dual Crown Authority]","Limited to [1] per Civilization",
-					"Only available <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>",
-            			"[+5]% Strength <for [Wounded] units>","Free [Peacemaker] appears <in cities following our religion>",
-					"[+2 Gold] from each Trade Route","[+50]% [Gold] from City-States","Free Social Policy",
-			   "Provides [1] [Incense]","Provides [1] [Gems]","[+50]% [Gold] from City-States","Free Social Policy",
-					"May choose [1] additional belief(s) of any type when [founding] a religion",
-					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
-				],
-			},
-			{
-				"name": "Imperial Fullysia",
-		"isNationalWonder": true,
-		"cost": 0,
-				"uniques": ["Comment [Neo War]","Limited to [1] per Civilization","Free [Judge] appears <upon conquering a city>",
-					"Only available <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
-					"[+1 Science] from [All] tiles [in all cities]","[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]",
-					"[+1 Gold, +1 Production] per every [5] [Faith]","[+1 Science] per every [9] [Faith]","Provides [1] [Marble]","Provides [1] [Citrus]",
-					"Free Technology","Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
-				],
-			},
 	{
 		"name": "Amplitude Atrium",
 		"isNationalWonder": true,
