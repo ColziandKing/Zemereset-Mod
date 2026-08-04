@@ -1,5 +1,8 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
+
+
+					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
 "Triggers a [Gantu] event <upon entering the [Modern era]>","Triggers a [Toothless] event <upon entering the [Atomic era]>",
 	{
 		"name": "Adaptable",
