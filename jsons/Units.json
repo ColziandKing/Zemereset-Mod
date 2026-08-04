@@ -22,7 +22,7 @@
 		"uniques": ["Only available <if [Imperial Fullysia] is constructed in all [capital] cities>", 
 			"Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>",
             "[This Unit] gets a name from the [Engineer] group",
-			"[+50]% Strength <for every [Era number]>",]
+			"[+50]% Strength <for every [Era number]>",
 			"[+25]% Strength <starting from the [Modern era]>",
 			"[+25]% Strength <starting from the [Atomic era]>",
 			"[+25]% Strength <starting from the [Information era]>",
@@ -88,7 +88,7 @@
 	"uniques": ["Only available <if [Peaceperial Union] is constructed in all [capital] cities>", 
             "Can move immediately once bought", "Unable to capture cities",
             "[This Unit] gets a name from the [Merchant] group",
-			"[+50]% Strength <for every [Era number]>",]
+			"[+50]% Strength <for every [Era number]>",
 			"[+25]% Strength <starting from the [Modern era]>",
 			"[+25]% Strength <starting from the [Atomic era]>",
 			"[+25]% Strength <starting from the [Information era]>",
