@@ -508,7 +508,7 @@
         "hurryCostModifier": 0,
 	"uniques": [
 			    "All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
-		"Adopt [Superial Rule]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]","Adopt [Party Leadership]","Adopt [Space Procurements]","Adopt [Media Culture]","Adopt [Treaty Organization]","Adopt [Their Finest Hour]","Adopt [Universal Suffrage]","Adopt [Volunteer Army]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]",
+		"Adopt [Elite Forces]","Adopt [Iron Curtain]",
 	],
 	    "requiredTech": "Biology"
     },
