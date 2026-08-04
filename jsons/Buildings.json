@@ -35,7 +35,7 @@
 			"name": "Ecclesiastic Judicature",
 			"maintenance": 4,
 			"hurryCostModifier": 50,
-			"uniques": ["Only available <after adopting [capital] cities>", 
+			"uniques": ["Only available <after adopting [Imperial Fullysia]>", 
 				"Removes extra unhappiness from annexed cities",
 			"[+2 Faith, +3 Gold] [in this city] <in cities following our religion>",
 			"[+30]% Natural religion spread [in this city]"],
@@ -58,7 +58,7 @@
 		"name": "Aerospace Terminal",
 		"cost": 900,
 		"maintenance": 5,
-		"uniques": ["Only available <if [Peaceperial Union] is constructed in all [capital] cities>", 
+		"uniques": ["Only available <after adopting [Peaceperial Union]>", 
 			"Comment [Allows airlifting to other cities with [Airport]s]", // @see GlobalUniques.json unitUniques
 			"Can carry [9] extra [Air] units <in this city>",
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
@@ -89,7 +89,7 @@
 		"science": 3,
 		"maintenance": 4,
 		"uniques": [
-			"Only available <if [Superial Rule] is constructed in all [capital] cities>", 
+			"Only available <after adopting [Superial Rule]>", 
 			"New [Military] units start with [1000] XP [in this city]","Destroyed when the city is captured",
 			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","[1] free [Hupernikaō] units appear"],
 		"requiredTech": "Chivalry"
