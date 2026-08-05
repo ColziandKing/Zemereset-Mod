@@ -1,7 +1,7 @@
 # Memereset-Mod
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 "Only available <if [Imperial Fullysia] is constructed in all [capital] cities>", 
-				
+				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 
 		"Adopt [Elite Forces]","Adopt [Iron Curtain]",
 		"Adopt [Superial Rule]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]","Adopt [Party Leadership]","Adopt [Space Procurements]","Adopt [Media Culture]","Adopt [Treaty Organization]","Adopt [Their Finest Hour]","Adopt [Universal Suffrage]","Adopt [Volunteer Army]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]","Adopt [Superial Rule]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]",
