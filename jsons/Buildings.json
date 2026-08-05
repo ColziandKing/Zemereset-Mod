@@ -517,7 +517,6 @@
 		"gold": 8,
 		"isNationalWonder": true,
 		"uniques": ["[+100]% Gold given to enemy if city is captured <in this city>","Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-		"Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy","Free Social Policy",
 		]
 		"requiredTech": "Guilds"
 	},
