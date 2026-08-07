@@ -499,9 +499,6 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredTech": "Printing Press"
-	"uniques": [
-			    "Adopt [Superial Rule]","Adopt [Peaceperial Union]",
-	],
 	},
     {
         "name": "Hospital",
