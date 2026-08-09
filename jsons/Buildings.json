@@ -1,4 +1,40 @@
 [
+	{
+		"name": "Atlantean Figures",
+		"uniqueTo": "The Hittites",
+		"terrainsCanBeBuiltOn": ["Hill"],
+        "techRequired": "Construction",
+		"turnsToBuild": 5,
+		"gold":1,
+		"culture":1
+       },
+{
+		"name": "Marble Temple",
+                "uniqueTo": "Siam",
+		"replaces": "Opera House",
+		"culture": 4,
+                "faith": 3,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Feitoria",
+                "replaces": "Factory",
+		"uniqueTo": "Sweden",
+		"cost": 360,
+		"production": 3,
+                "food": 1,
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Industrialization"
+	},
 	//Ful
 	{
 		"name": "Amplitude Atrium",
@@ -14,7 +50,7 @@
 		"cost": 125,
 		"greatPersonPoints": {"Great Scientist": 3, "Great General": 3, "Great Engineer": 3, "Great Artist": 3, "Great Merchant": 3, "Great Prophet": 3},
 		"uniqueTo": "Principality of Fullysia",
-			"replaces": "Courthouse",
+			"replaces": "Heroic Epic",
 		"requiredTech": "Iron Working"
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city","Gain a free [Walls] [in this city]","[4] free [Judge] units appear"], 
