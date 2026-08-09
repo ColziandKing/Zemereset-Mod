@@ -1,5 +1,38 @@
 
 [
+{
+		"name": "Urumi Swordsman",
+                "uniqueTo": "The Ayyubids",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 78,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+                "uniques": ["[1] additional attacks per turn"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+//Indonesia
+{
+	"name": "Jong",
+	"uniqueTo": "Sumeria",
+	"replaces": "Galleass",
+	"unitType": "Ranged Water",
+	"movement": 4,
+	"strength": 16,
+	"rangedStrength": 17,
+	"cost": 100,
+	"requiredTech": "Compass",
+	"obsoleteTech": "Navigation",
+	"upgradesTo": "Frigate",
+	"promotions": ["[Jong] ability"],
+	"uniques": ["Cannot enter ocean tiles"],
+	"attackSound": "arrow"
+},
 	//The Goths
 {
 	"name": "Foederati",
