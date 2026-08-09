@@ -1039,7 +1039,7 @@
 		"name": "Exploration",
 		"uniques": [
 			"[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>","Unlocks [[Settler]] units",
+			"[+1] Sight <for [{Military} {Water}] units>",
 		 "Adopt [Maritime Infrastructure]", 
                     "Get the leader title of [Captain [leaderName]]",
 		],
