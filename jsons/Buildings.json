@@ -124,16 +124,18 @@
 	
 	{
 		"name": "Necropolis",
-		"replaces": "Temple",
+		"replaces": "Stone Works",
 		"uniqueTo": "Egypt",
 		"cost": 100,
 		"hurryCostModifier": 160,
-		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"production": 2,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"civilopediaText": [ {"text": "According to ancient Egyptians, true immortality was found in death, but significant preparation was required to achieve the best outcome in the afterlife. The necropolis ('city of the dead') developed to support and serve the extensive funerary practices that prepared body and soul for their final journey. Upon death, Egyptians believed the soul departed the body, which needed to be preserved until the spirit’s return allowed for rebirth. This process was accomplished through mummification, during which the organs were removed and the corpse was dried out, treated, and wrapped in linen before being interred in a sarcophagus. The dead were buried with spells to guide them to the afterlife, as well as food, tools, treasures, and other supplies they would need for the journey. \nNumerous dangerous paths traversed the Duat, or underworld, and the passage taken by the deceased was determined by their status in life. If the soul succeeded in this voyage, it faced judgment and was weighed against the feather of Ma’at to determine if it was pure enough to enter Sekhet-Aaru, the paradisial Field of Reeds. Those who passed the test would find new life…those who failed were consumed by the goddess Ammit, never to be reborn."}, {"separator": true}],
 		"uniques": ["Gain [100] [Gold] <upon constructing [Wonders] [in this city]> <(modified by game speed)>",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]",
 					"Destroyed when the city is captured"],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Calendar"
 	},
 
 	 {
