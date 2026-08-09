@@ -1,13 +1,4 @@
 [
-	{
-		"name": "Atlantean Figures",
-		"uniqueTo": "The Hittites",
-		"terrainsCanBeBuiltOn": ["Hill"],
-        "techRequired": "Construction",
-		"turnsToBuild": 5,
-		"gold":1,
-		"culture":1
-       },
 {
 		"name": "Marble Temple",
                 "uniqueTo": "Siam",
