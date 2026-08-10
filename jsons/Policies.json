@@ -883,7 +883,7 @@
             "Scientific": 0
 		},
 		"uniques": [
-			"[-25]% City-State Influence degradation","Adopt [Philantropy]", 
+			"[-25]% City-State Influence degradation","Adopt [Philantropy]", "Unavailable <after adopting [Relations]> <hidden from users>",
                     "Get the leader title of [[leaderName] the Enlightened]",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
@@ -1226,7 +1226,7 @@
             "Scientific": 10,
 	    "Religious": 0
         },
-        "uniques": ["Adopt [Counter Intelligence]","[+1 Happiness] [in all cities]",
+        "uniques": ["Adopt [Counter Intelligence]","[+1 Happiness] [in all cities]","Unavailable <after adopting [Patronage]> <hidden from users>",
                     "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory", "Only available <when number of [Gold] is more than [3 * [Speed modifier for [Gold]]]>",
 					"Comment [Grants the Chancellor title]",
 					"Get the leader title of [Chancellor [leaderName]]"],
