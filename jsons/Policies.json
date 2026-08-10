@@ -318,7 +318,8 @@
 				"name": "Superial Rule",
 				"uniques": ["Comment [More Than Conquerors]",
 			    "Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
-			    "Gain a free [Stronghold] [in annexed cities]",
+			    "Gain a free [Stronghold] [in annexed cities]","[+50]% [Production] from City-States",
+					"[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 				],
 				"row": 1,
 				"column": 10
