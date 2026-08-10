@@ -6,7 +6,7 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
 					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
-					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
+					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]",
 
 
 					
