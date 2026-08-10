@@ -3,6 +3,13 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 "Only available <if [Imperial Fullysia] is constructed in all [capital] cities>", 
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 
+            "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+			    "[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
+					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
+					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]","[+50]% [Production] from City-States",
+
+
+					
 		"Adopt [Elite Forces]","Adopt [Iron Curtain]",
 		"Adopt [Superial Rule]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]","Adopt [Party Leadership]","Adopt [Space Procurements]","Adopt [Media Culture]","Adopt [Treaty Organization]","Adopt [Their Finest Hour]","Adopt [Universal Suffrage]","Adopt [Volunteer Army]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]","Adopt [Superial Rule]","Adopt [Peaceperial Union]","Adopt [Imperial Fullysia]",
 					"Unbuildable", "Only available <in [in capital] cities>", "Destroyed when the city is captured"
