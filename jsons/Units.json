@@ -85,7 +85,7 @@
 		"strength": 25,
 		"cost": 195,
 		"uniques": ["Only available <after adopting [Imperial Fullysia]>", 
-			"Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>",
+			"Can move after attacking","No defensive terrain bonus", 
             "[This Unit] gets a name from the [Engineer] group",
 			"[+50]% Strength <for every [Era number]>",
 			"[+25]% Strength <starting from the [Modern era]>",
@@ -145,7 +145,7 @@
 	"attackSound": "cannon"
 },
 {
-	"name": "Peacekmaker",
+	"name": "Peacemaker",
 	"unitType": "Gunpowder",
 	"movement": 2,
 	"strength": 75,
