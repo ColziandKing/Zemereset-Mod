@@ -47,17 +47,6 @@
 			"Cost increases by [30] per owned city","Gain a free [Walls] [in this city]","[4] free [Judge] units appear"], 
 		"quote": "'Here starts the rule in which it will lead us to the bright future. Our expanse is going further beyond the horizon skies of fate. Long it has started and now it still continues, our Lord leads us.' - Colziand King"
 	},
-        {
-		"name": "Intendencia Office",
-		"uniqueTo": "Principality of Fullysia",
-		"cost": 490,
-		"culture": 2,
-                "gold": 1,
-		"percentStatBonus": {"production": 3},
-		"maintenance": 4,
-		"hurryCostModifier": 0,
-		"requiredTech": "Education"
-	},
 		{
 			"name": "Ecclesiastic Judicature",
 			"maintenance": 4,
@@ -118,7 +107,7 @@
 		"uniques": [
 			"Only available <after adopting [Superial Rule]>", 
 			"New [Military] units start with [1000] XP [in this city]","Destroyed when the city is captured",
-			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","[1] free [Hupernikaō] units appear"],
+			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion"],
 		"requiredTech": "Chivalry"
 	},
 	
