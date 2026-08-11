@@ -2,6 +2,33 @@
 A Star Wars mod for Unciv. With help from Sullien, and it works well with his Jedi Order and our Galactic Empire. This Underworld mod has mercenaries and smugglers, create your own criminal dynasty. "Starting tech"elephant
 "Only available <if [Imperial Fullysia] is constructed in all [capital] cities>", 
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
+	{
+        "name": "Colonist",
+		"replaces": "Settler",
+        "uniqueTo": "Principality of Fullysia",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 106,
+        "uniques": ["Founds a new city <by consuming this unit>","Comment [Cities founded by this unit start with 1 extra population]",
+			"Excess Food converted to Production when under construction","Requires at least [2] population"],
+		"civilopediaText": [ {"text": "Carthage began as a Phoenician colony, a small coastal outpost founded to facilitate and control trade across the Mediterranean. As it grew into a city and an independent center of power, Carthage used the same technique to expand its own influence and power, relying on colonies rather than land to fuel its empire. While historically this expansion has been characterized as aggressive and imperialistic (in large part due to hostile Roman accounts of Carthage’s history), more recent investigations have shown that the initial coalescence of power focused on taking control of, and strengthening, existing Phoenician settlements along the western coastlines, while direct seizure of territory occurred later on. During this later phase, colonists were sent to establish settlements around the Mediterranean and beyond to function as trade hubs, depots, and safe harbors for the Carthaginian fleet."}, {"separator": true}],
+        "hurryCostModifier": 20
+    },
+{
+	"name": "Caravela",
+	"uniqueTo": "Suzainswellia",
+	"replaces": "Caravel",
+	"unitType": "Melee Water",
+	"movement": 5,
+	"strength": 20,
+	"cost": 120,
+	"requiredTech": "Astronomy",
+	"upgradesTo": "Ironclad",
+	"obsoleteTech": "Combustion",
+	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "[-20]% Strength decreasing with distance from the capital", "[+20]% Strength", "May enter foreign tiles without open borders"],
+	"hurryCostModifier": 30,
+	"attackSound": "cannon"
+},
 
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 "[+100]% Production when constructing [Courthouse] buildings [in your cities]",
