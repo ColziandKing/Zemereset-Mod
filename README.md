@@ -5,7 +5,9 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 
-
+"[+1 Faith, +1 Production] from every [Grand Temple]","[+5]% [Faith] [in capital]",
+					"[+1 Faith, +1 Science] from every [University]","[+10]% [Food] [in all cities]","[+1 Faith] from [All] tiles [in all cities]",
+					
 				"Adopt [Peaceperial] <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>","Adopt [Imperial Fullysia] <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
 					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]",
