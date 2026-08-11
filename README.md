@@ -8,7 +8,23 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 
 "[+1 Faith, +1 Production] from every [Grand Temple]","[+5]% [Faith] [in capital]",
 					"[+1 Faith, +1 Science] from every [University]","[+10]% [Food] [in all cities]","[+1 Faith] from [All] tiles [in all cities]",
+					"[+1 Gold, +1 Production] per every [5] [Faith]","[+1 Science] per every [9] [Faith]","Provides [1] [Marble]","Provides [1] [Citrus]","[+1 Science] from [All] tiles [in all cities]",
+			   "Provides [1] [Incense]","Provides [1] [Gems]","Free Social Policy",
+					"May choose [1] additional belief(s) of any type when [founding] a religion",,"[1] free [Hupernikaō] units appear"
+        {
+		"name": "Intendencia Office",
+		"uniqueTo": "Principality of Fullysia",
+		"cost": 490,
+		"culture": 2,
+                "gold": 1,
+		"percentStatBonus": {"production": 3},
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"requiredTech": "Education"
+	},
 					
+					"Only available <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
+					"Only available <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>",
 				"Adopt [Peaceperial] <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>","Adopt [Imperial Fullysia] <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
 					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]",
