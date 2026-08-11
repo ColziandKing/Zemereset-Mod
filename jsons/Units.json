@@ -195,7 +195,7 @@
 		"cost": 120,
 		"hurryCostModifier": 40,
 		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Knivex",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit",
