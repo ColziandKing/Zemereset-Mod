@@ -4,7 +4,9 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 
             "Adopt [Colziand Rule] <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
-			    
+
+
+				"Adopt [Peaceperial] <after adopting [Iron Curtain]> <for [Suzainswellia] Civilizations> <hidden from users>","Adopt [Imperial Fullysia] <after adopting [Treaty Organization]> <for [Principality of Fullysia] Civilizations> <hidden from users>",
 					"Only available <after adopting [Gunboat Diplomacy]> <for [Colziand Kingdom] Civilizations> <hidden from users>",
 					"[+1 Food] from [All] tiles [in [non-Puppeted] cities]",
 
