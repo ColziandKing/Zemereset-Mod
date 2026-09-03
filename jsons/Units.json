@@ -1,5 +1,14 @@
 
 [
+	{
+		"name": "Citrus Masterr",
+		"uniqueTo": "Azienda-Impresa",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 0,
+		"uniques": ["Unbuildable","Add [Citrus] to this tile <for [3] movement> <[2] times> <after which this unit is consumed>"],
+		"attackSound": "metalhit"
+	},
 //Portugal
 {
 	"name": "Caravela",
