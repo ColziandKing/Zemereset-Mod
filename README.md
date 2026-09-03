@@ -3,6 +3,43 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 "Only available <if [Imperial Fullysia] is constructed in all [capital] cities>", 
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 				"Only available <after adopting [League of Nations]>",
+
+
+			{
+				"name": "Superial Rule",
+				"uniques": ["Comment [More Than Conquerors]",
+			    "Free [Hupernikaō] appears <upon entering a new era> <hidden from users>",
+			    "Gain a free [Stronghold] [in annexed cities]","[+50]% [Production] from City-States",
+					"[+50]% [Happiness] from City-States","[+50]% [Science] from City-States",
+				],
+				"row": 1,
+				"column": 10
+			},
+			{
+				"name": "Peaceperial Union",
+				"uniques": ["Comment [Dual Crown Authority]",
+            			"[+5]% Strength <for [Wounded] units>","Free [Peacemaker] appears <in cities following our religion>",
+					"[+2 Gold] from each Trade Route","[+50]% [Gold] from City-States","Free Social Policy","[+50]% [Gold] from City-States",
+					"Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]", 
+					"Provides a [Palace] in your first [2] cities for free <hidden from users>"
+				],
+				"row": 2,
+				"column": 11
+			},
+			{
+				"name": "Imperial Fullysia",
+				"uniques": ["Comment [Neo Overseas War]",
+					"Free [Judge] appears <upon conquering a city>",
+					"[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]",
+					"Free Technology",
+				],
+				"row": 3,
+				"column": 10
+			},
+
+
+
+				
 	{
         "name": "Colonist",
 		"replaces": "Settler",
