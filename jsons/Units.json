@@ -451,7 +451,7 @@
 		"strength": 5,
 		"cost": 25,
 		"requiredTech": "Future Tech","uniques": ["Comment [May enter [Ocean] tiles after discovering [Optics]]",
-					"Gain [2500000] [Gold]","May upgrade to [Mechanized Infantry] through ruins-like effects", "Never appears as a Barbarian unit"],
+					"Gain [250000] [Gold]","May upgrade to [Mechanized Infantry] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [ {"text": "Tongan society was a complex network of rank and status dependent on sibling and marriage relationships. Polygamy and divorce were common, so kinship lines could result in heavy competition for land and influence. A tehina, or 'younger brother', was often such a man, possibly an actual brother but perhaps a cousin or other close kinsman. The Tu'i Tonga would send these men out to other islands with the task to find a wife, marry into the local governance structure, and absorb the territory into the greater range of the Tu'i Tonga's rule. The chief would supply the tehina with the ships and warriors possibly needed for the expedition, but it was up to the tehina himself to acquire a wife of high rank and build a network of support in the new area. \nA successful tehina would wrap his new territory into the system of 'inasi, or 'tribute', that bound the Tongan maritime empire together. As a new de facto chief, his subjects were responsible for providing a portion of the land's product to him, and from him, on to the Tu'i Tonga in the center. In this way, the periphery continually expanded, and the network of kinship and exchange bound the center to the outward islands in what was a stable and lasting arrangement."}, {"separator": true}],
 		"attackSound": "nonmetalhit"
