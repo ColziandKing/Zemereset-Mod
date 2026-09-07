@@ -9,4 +9,12 @@
 		"name": "[Guard of The Rock] ability",
 		"uniques": ["[1] additional attacks per turn <in [Friendly Land] tiles>"],
 	},
+	{
+		"name": "To the World's End",
+		"uniques": ["[This Unit] heals [25] HP", "[This Unit] gains [3] XP", "Doing so will consume this opportunity to choose a Promotion"], 
+	},
+	{ 
+		"name": "Messiah Unique", 
+		"uniques": ["Can Spread Religion <[1] additional time(s)>", "Ignores Zone of Control", "May travel on Water tiles without embarking"] 
+	},
 ]
