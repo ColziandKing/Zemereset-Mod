@@ -1,5 +1,4 @@
  [
-	//RSCUniverse
 	{
 		"name": "Macedonia",
 		"leaderName": "Philip II",
@@ -37,6 +36,7 @@
 			"Patras","Lamia","Nafplion","Apolyton"],
 		"spyNames": ["Aeropus", "Adea", "Balacrus", "Berenice", "Caranus", "Cynane", "Koinos", "Europa", "Lysimachus", "Nicaea"]
 	},
+	//RSCUniverse
 	{
 		"name": "Colziand Kingdom",
 		"leaderName": "R.S. Caballero",
