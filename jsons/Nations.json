@@ -1,41 +1,4 @@
  [
-	{
-		"name": "Macedonia",
-		"leaderName": "Philip II",
-		"adjective": ["Macedonian"],
-		"startBias": ["Hill"],
-		"preferredVictoryType":"Domination",
-		"favoredReligion": "Orthodoxy",
-		"personality": "Alexander",
-		
-		"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, tragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
-		"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "The armies of Greece await you with open arms!",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "Your slanderous tongue will make it all the more satisfying when I stand before the ruins of your capital!",
-		"introduction": "Greetings! I am Alexander of Macedon, the King and the Pharaoh, the undefeated General of Greece!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-		"tradeRequest": "My friend, does this seem reasonable to you?",		
-		
-		"outerColor": [0, 51, 102],
-		"innerColor": [254, 218, 54],
-		
-		"uniqueName": "Hellenistic Fusion",
-		"uniqueText": "Upon capturing a city, receive immediately 5 times its respective [Science] and [Culture] production and all non-air military units heal 25 HP and gain 3 XP\nUnhappiness in puppeted cities is halved when at war\nGreat Generals may found new puppet cities",
-		"uniques": ["Upon capturing a city, receive [5] times its [Science] production as [Science] immediately", "Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately", 
-            "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]","[+1 Food, +1 Culture, +1 Happiness] from every [Armory]",
-			"[{Military} {non-air}] units gain the [To the World's End] promotion <upon conquering a city>", "[-50]% Unhappiness from [Population] [in puppeted cities] <when at war>", "[+1 Happiness] [in puppeted cities] <when at war>"],
-		"cities": ["Pella","Aigai","Amphipolis","Alexandropouli","Alexandria Troas","Alexandria","Alexandria Ariana",
-			"Alexandria Arachosia","Alexandria Eschate","Alexandria in Parapamisdai","Alexandria in Margiana","Alexandria Bucephala","Alexandria Rhambakia","Alexandria in Susiana","Stagira","Thessaloniki","Dion","Pydna","Apollonia","Philippolis",
-			"Alexandretta","Methone","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Naxos","Sicyon",
-			"Larissa","Messene","Orchomenos","Ambracia","Kos","Knidos",
-			"Patras","Lamia","Nafplion","Apolyton"],
-		"spyNames": ["Aeropus", "Adea", "Balacrus", "Berenice", "Caranus", "Cynane", "Koinos", "Europa", "Lysimachus", "Nicaea"]
-	},
 	//RSCUniverse
 	{
 		"name": "Colziand Kingdom",
