@@ -1,20 +1,6 @@
 
 [
 	{
-		"name": "Hypaspist",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Macedonia",
-		"cost": 46,
-		"movement": 2,
-		"strength": 10,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Military Tactics",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% to Flank Attack bonuses", "Ignores Zone of Control"],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Citrus Masterr",
 		"uniqueTo": "Azienda-Impresa",
 		"unitType": "Civilian",
