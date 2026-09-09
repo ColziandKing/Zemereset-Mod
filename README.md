@@ -5,6 +5,20 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 				"Only available <after adopting [League of Nations]>",
 
 	{
+		"name": "Hypaspist",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Macedonia",
+		"cost": 46,
+		"movement": 2,
+		"strength": 10,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Military Tactics",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% to Flank Attack bonuses", "Ignores Zone of Control"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Macedonia",
 		"leaderName": "Philip II",
 		"adjective": ["Macedonian"],
