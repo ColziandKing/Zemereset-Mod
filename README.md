@@ -4,6 +4,35 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 				"Only available <after adopting [League of Nations]>",
 
+
+{
+	"name": "Unionfighter Typhoon",
+	"replaces": "Jet Fighter",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 75,
+	"rangedStrength": 80,
+	"range": 12,
+	"interceptRange": 10,
+	"cost": 425,
+	"requiredTech": "Combined Arms",
+	"requiredResource": "Aluminum",
+	"promotions": ["Dogfighting I"],
+	"uniques": ["Only available <after adopting [Subversion]>","[100]% chance to intercept air attacks", "Heals [35] damage if it kills a unit", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+	"attackSound": "jetgun"
+},
+{
+	"name": "Unioncorps",
+	"replaces": "Mechanized Infantry",
+	"unitType": "Gunpowder",
+	"movement": 5,
+	"strength": 90,
+	"cost": 375,
+	"requiredTech": "Mobile Tactics",
+	"uniques": ["Only available <after adopting [Subversion]>","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot",
+	"promotions": ["[Eurocorps] ability"],
+},
 	{
 		"name": "Hypaspist",
 		"unitType": "Sword",
