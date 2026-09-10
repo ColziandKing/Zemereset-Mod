@@ -49,9 +49,9 @@
 		"uniqueTo": "Sumeria",
 		"movement": 2,
 		"strength": 15,
-		"cost": 39,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Iron Working",
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when defending>"],
 		"attackSound": "metalhit"
