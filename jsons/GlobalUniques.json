@@ -17,6 +17,7 @@
 	  "[2] Free Technologies <for [All] Civilizations> <upon entering the [Ancient era]>",
 	        "[3] free [Landsknecht] units appear <for [City-States] Civilizations> <upon entering the [Medieval era]>",
 	        "[3] free [Foreign Legion] units appear <for [City-States] Civilizations> <upon entering the [Industrial era]>",
+	  "Cannot build [Settler] units <before the [Classical era]> <hidden from users>",
 		"[-11]% Gold from Great Merchant trade missions <before the [Ancient era]>",
 		"[+11]% Gold from Great Merchant trade missions <during the [Classical era]>",
 		"[+18]% Gold from Great Merchant trade missions <during the [Medieval era]>",
