@@ -4,6 +4,10 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 				"Only available <after adopting [League of Nations]>",
 
+			"Comment [Obsolete with [Civ V Brave New World]]",
+			"Unavailable",
+			"Will not be displayed in Civilopedia",
+			"[-100]% weight to this choice for AI decisions"
 
 {
 	"name": "Unionfighter Typhoon",
