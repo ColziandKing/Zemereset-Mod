@@ -4,7 +4,7 @@
 	// Ideology: Autocracy
 	{
 		"name": "Autocracy",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -301,10 +301,6 @@
 		"name": "Assistance",
 		"era": "Renaissance era",
 		"uniques": [
-			"Comment [Obsolete with [Civ V Brave New World]]",
-			"Unavailable",
-			"Will not be displayed in Civilopedia",
-			"[-100]% weight to this choice for AI decisions"
 		],
 		"priorities": {
 			"Neutral": -10,
@@ -1375,7 +1371,7 @@
 	// Ideology: Order
 	{
 		"name": "Order",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"priorities": {
             "Neutral": 10,
             "Cultural": 0,
@@ -1671,7 +1667,7 @@
 	// Ideology: Freedom
 	{
 		"name": "Freedom",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"priorities": {
             "Neutral": 30,
             "Cultural": 30,
