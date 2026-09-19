@@ -4,7 +4,7 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 				"Triggers a [Adaptable] event <upon entering the [Renaissance era]> <hidden from user>",
 				"Only available <after adopting [League of Nations]>",
 
-			
+		
 
 {
 	"name": "Unionfighter Typhoon",
