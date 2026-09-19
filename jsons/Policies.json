@@ -453,7 +453,7 @@
 				"name": "Superial Rule",
 				"uniques": ["Free [Longswordsman] appears <upon constructing [Armory] [in all cities]>","[+2 Culture, +2 Faith] from every [Castle]",
 					"[+1 Culture, +1 Food] from every specialist [in all cities]","[+2 Gold, +2 Food] from every specialist [in capital]","[+1 Gold, +1 Food] from every specialist [in capital] <during a Golden Age>",
-					"Comment [Rationalism;Terror of the Turks and Mound Builder]"
+					"Comment [Build Alhambra;Recommended for Freedom civs]"
 				],
 				"row": 1,
 				"column": 10
@@ -461,7 +461,7 @@
 			{
 				"name": "Peaceperial Union",
 				"uniques": ["[+4 Production] [in annexed cities] <in cities without a [Courthouse]> <in [Coastal] tiles>", "[+2 Production, +1 Gold, +1 Food] [in annexed cities] <in cities with a [Courthouse]> <in [Coastal] tiles>", "[+1 Food] from every [Fishing Boats]",
-					"Comment [Exploration;Thalassocracy]"
+					"Comment [Build The Great Lighthouse;Recommended for Order civs]"
 				],
 				"row": 2,
 				"column": 11
@@ -469,7 +469,7 @@
 			{
 				"name": "Imperial Fullysia",
 				"uniques": ["[Great Engineer] is earned [+25]% faster","[+30]% Production when constructing [Siege] units [in all cities]","[-25]% maintenance costs <for [All] units>",
-				"Comment [Commerce;Iron Hand of Innovation]"
+				"Comment [Build Statue of Zeus;Recommended for Autocracy civs]"
 				],
 				"row": 3,
 				"column": 10
@@ -772,7 +772,7 @@
 		"uniques": [
 			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+50]% Production when constructing [Temple] buildings [in all cities]",
-			 "Adopt [Organized Religion]", 
+			 "Adopt [Organized Religion]", "Adopt [Religious Orders]", 
                     "Get the leader title of [[leaderName] the Pious]",
 	                "Only available <before the [Industrial era]>",
 			"Only available <when religion is enabled>"
@@ -873,8 +873,8 @@
             "Scientific": 0
 		},
 		"uniques": [
-			"[-25]% City-State Influence degradation","Adopt [Philantropy]", "Unavailable <after adopting [Relations]> <hidden from users>",
-                    "Get the leader title of [[leaderName] the Enlightened]",
+			"[-25]% City-State Influence degradation","Unavailable <after adopting [Relations]> <hidden from users>",
+                    "Get the leader title of [[leaderName] the Enlightened]","Adopt [Philantropy]", "Adopt [Consulates]", 
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
@@ -956,7 +956,7 @@
 		},
 		"uniques": [
 			"[+10]% [Science] <while the empire is happy>",
-		 "Adopt [Secularism]", "Adopt [Superial Rule]","Get the leader title of [[leaderName] the Wise]",
+		 "Adopt [Secularism]", "Adopt [Humanism]","Get the leader title of [[leaderName] the Wise]",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -1030,7 +1030,7 @@
 		"uniques": [
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>",
-		 "Adopt [Maritime Infrastructure]", "Adopt [Peaceperial Union]", 
+		 "Adopt [Maritime Infrastructure]", "Adopt [Naval Tradition]", 
                     "Get the leader title of [Captain [leaderName]]",
 		],
 		"era": "Medieval era",
@@ -1131,7 +1131,7 @@
 		},
 		"uniques": [
 			"[+25]% [Gold] [in capital]",
-		 "Adopt [Wagon Trains]", "Adopt [Imperial Fullysia]","Get the leader title of [Doge [leaderName]]",
+		 "Adopt [Wagon Trains]", "Adopt [Mercenary Army]","Get the leader title of [Doge [leaderName]]",
 					"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -1217,7 +1217,7 @@
             "Scientific": 10,
 	    "Religious": 0
         },
-        "uniques": ["Adopt [Counter Intelligence]","[+1 Happiness] [in all cities]","Unavailable <after adopting [Patronage]> <hidden from users>",
+        "uniques": ["Adopt [Mercenary Opportunism]","Adopt [Inquisition]","[+1 Happiness] [in all cities]","Unavailable <after adopting [Patronage]> <hidden from users>",
                     "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory", "Only available <when number of [Gold] is more than [3 * [Speed modifier for [Gold]]]>",
 					"Comment [Grants the Chancellor title]",
 					"Get the leader title of [Chancellor [leaderName]]"],
@@ -1296,7 +1296,7 @@
 			"[Great Artist] is earned [25]% faster",
 			"[Great Musician] is earned [25]% faster",
 			"[Great Writer] is earned [25]% faster",
-		 "Adopt [Cultural Centers]",
+		 "Adopt [Cultural Centers]","Adopt [Fine Arts]",
 			"Get the leader title of [Master/Mistress [leaderName]]",
 			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
