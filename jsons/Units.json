@@ -1,7 +1,17 @@
 
 [
 	{
-		"name": "Citrus Masterr",
+		"name": "Quarry Foreman",
+		"uniqueTo": "Azienda-Impresa",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 0,
+		"uniques": ["Unbuildable","Add [Stone] to this tile <for [3] movement> <[1] times> <after which this unit is consumed>",
+			"Add [Marble] to this tile <for [3] movement> <[1] times> <after which this unit is consumed>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Citrus Master",
 		"uniqueTo": "Azienda-Impresa",
 		"unitType": "Civilian",
 		"movement": 3,
